@@ -1,0 +1,11 @@
+
+
+#loginTitle{
+    margin: -8px;
+    height: 1.5cm;
+    text-align: center;
+    background-color: pink;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: groove 2px black;
+}
