@@ -1,56 +1,47 @@
 @font-face {
-    font-family:
-        'knewave';
-    src: url(../Fonts/knewave.ttf);
+    font-family: 'knewave';
+    src: url('../Fonts/knewave.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-div {outline-color: rgb(201, 76, 76);}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../Images/MicrosoftTeams-image (2).png");
+    background-size: cover;
+}
 
 header {
     text-align: center;
-
-}
-
-body{
-    background-image: url(../Images/MicrosoftTeams-image\ \(2\).png);
-    background-size: cover;
-    text-align: center;
-    font-size: 500%;
-    font-family: 'knewave';
+    font-size: 800%;
+    font-family: 'knewave', sans-serif;
     color: #fcb26e;
     text-shadow: -4px -4px 4px #86613f, 4px -4px 4px #86613f, -4px 4px 4px #86613f, 4px 4px 4px #86613f;
-    image-resolution: 150%;
 }
 
 img {
-    max-width: 100%; /* Ensure images don't exceed the width of their container */
-  }
-  
-  .img-left {
-    order: 1; /* Specify the order of the left image */
-  }
-  
-  .img-center {
-    order: 2; /* Specify the order of the center image */
-  }
-  
-  .img-right {
-    order: 3; /* Specify the order of the right image */
-  }
+    max-width: 100%;
+}
 
+.img-left {
+    order: 1;
+}
 
-img {
-    margin-top: 40px;
-    border-radius: 20%;
-    width: 20%;
-    height: 20%;
-  }
+.img-center {
+    order: 2;
+    margin-left: 12.5%;
+}
+
+.img-right {
+    order: 3;
+    margin-left: 7.5%;
+}
 
 img {
     margin-top: 40px;
     border-radius: 20%;
-    width: 20%;
-    height: 20%;
-  }
+    width: 25%;
+    height: auto;
+}
