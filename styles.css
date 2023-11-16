@@ -3,6 +3,9 @@ header{
     background-color: rgba(245, 137, 137, 0.14);
     margin: -20px;
     background: solid;
+    border: solid 3px;
+    border-bottom-left-radius: 10in;
+    border-bottom-right-radius: 10in;
     
 }
 
