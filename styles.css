@@ -1,4 +1,4 @@
-header{
+#titleLogin{
     text-align: center;
     background-color: rgba(245, 137, 137, 0.25);
     margin: -20px;
@@ -17,7 +17,12 @@ top: -10px;
 background: url(MEDIA_CRUELTY-FREEKITTY_150x@2x.png);
 }
 
-body{
+#loginBody{
     background-image: url(./Images/Fond.jpg);
     background-size: cover;
+}
+
+#catLogin{
+    float: left;
+    border-right: solid;
 }
