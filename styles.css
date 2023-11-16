@@ -1,9 +1,8 @@
 header{
     text-align: center;
-    background-color: rgba(245, 137, 137, 0.14);
+    background-color: rgba(245, 137, 137, 0.25);
     margin: -20px;
-    background: solid;
-    border: solid 3px;
+    border: solid 2px;
     border-bottom-left-radius: 10in;
     border-bottom-right-radius: 10in;
     
@@ -16,4 +15,9 @@ height: 85px;
 left: -5px;
 top: -10px;
 background: url(MEDIA_CRUELTY-FREEKITTY_150x@2x.png);
+}
+
+body{
+    background-image: url(./Images/Fond.jpg);
+    background-size: cover;
 }
