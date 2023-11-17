@@ -28,8 +28,10 @@
     border-right: solid 3px;
 }
 
-.Formulaire .minititleLogin {
-    margin-right: 0;
+.minititleLogin {
+    margin-right: 2.9cm;
+    border: solid;
+    height: 25px;
 }
 
 .input {
@@ -59,22 +61,22 @@
     margin-top: -5px;
     margin-left: -200px;
 
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
 }
 
 .input1Box {
     box-sizing: border-box 10px;
     transition: background-color .3s, box-shadow .3s;
-    
+
 
     filter: drop-shadow(0.5px -0.5px 1.6px #000000);
     border-radius: 1000px;
 
     filter: drop-shadow(0.5px -0.5pgit add x 1.6px #000000);
     border-radius: 1000px;
-    width: 150px;
-    height: 25px;
+    width: 175px;
+    height: 30px;
 
     border: 1px solid #000000;
     border-radius: 100px;
@@ -82,14 +84,14 @@
 }
 
 .input1Box:hover {
-    background-color:  rgb(242, 187, 187, 1);
+    background-color: rgb(242, 187, 187, 1);
 }
 
 .input2 {
-    margin-top: 5px;
-    margin-left: -248px;
+    margin-top: -5px;
+    margin-left: -252px;
 
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
 }
 
@@ -101,8 +103,8 @@
     filter: drop-shadow(0.5px -0.5px 1.6px #000000);
     border-radius: 1000px;
 
-    width: 150px;
-    height: 25px;
+    width: 175px;
+    height: 30px;
 
     border: 1px solid #000000;
     border-radius: 100px;
@@ -111,14 +113,18 @@
 }
 
 .input2Box:hover {
-    background-color:  rgb(242, 187, 187, 1);
+    background-color: rgb(242, 187, 187, 1);
 }
 
 .checkbox {
-    margin-top: 5px;
-    margin-left: -124px;
-
+    margin-top: 7px;
+    margin-left: -120px;
     cursor: pointer;
+
+    color: #030303;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 
 
 }
@@ -126,51 +132,53 @@
 .Google {
     display: flex;
     margin-top: 50px;
-    margin-left: -160px;    
+    margin-left: -160px;
     cursor: pointer;
     transition: background-color .3s, box-shadow .3s;
-        
-    padding: 12px 16px 12px 42px;
+    height: 60px;
+    width: 250px;
+
+    padding: 20px 16px 12px 50px;
     border: none;
     border-radius: 8px;
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 3px rgba(0, 0, 0, .25);
-    
-    color: #757575;
-    font-size: 14px;
+
+    color: #030303;
+    font-size: 15px;
     font-weight: 500;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
     background-color: rgba(224, 239, 254, 1);
     background-repeat: no-repeat;
-    background-position: 12px 11px;
+    background-position: 18px 22px;
 }
 
 .Google:hover {
     background-color: rgba(242, 187, 187, 1);
 }
 
-.loginButton{
+.loginButton {
     margin-top: 20px;
     margin-left: -160px;
-    padding: 12px 16px 12px 42px;
-    height: 45px;
-    width: 215px;
+    padding: 12px 16px 12px 25px;
+    height: 60px;
+    width: 250px;
     transition: background-color .3s, box-shadow .3s;
     cursor: pointer;
-    
 
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     font-weight: 500;
 
     border: none;
     border-radius: 8px;
-    
+
 
     background-color: rgba(224, 239, 254, 1);
-    
-    
+
+
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 3px rgba(0, 0, 0, .25);
 
 }
@@ -179,6 +187,64 @@
     background-color: rgba(242, 187, 187, 1);
 }
 
+.inscriButton {
+    margin-top: 20px;
+    margin-left: -160px;
+    padding: 12px 16px 12px 25px;
+    height: 60px;
+    width: 250px;
+    transition: background-color .3s, box-shadow .3s;
+    cursor: pointer;
+
+
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 8px;
+
+
+    background-color: rgba(224, 239, 254, 1);
+
+
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 3px rgba(0, 0, 0, .25);
+
+}
+
+.inscriButton:hover {
+    background-color: rgba(242, 187, 187, 1);
+}
+
+.confiButton {
+    margin-top: 20px;
+    margin-left: -160px;
+    padding: 12px 16px 12px 25px;
+    height: 60px;
+    width: 250px;
+    transition: background-color .3s, box-shadow .3s;
+    cursor: pointer;
+
+
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 8px;
+
+
+    background-color: rgba(224, 239, 254, 1);
+
+
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 3px rgba(0, 0, 0, .25);
+}
+
+.confiButton:hover {
+    background-color: rgba(242, 187, 187, 1);
+}
 
 
 
