@@ -20,6 +20,7 @@
 }
 
 .catLogin {
+    position: relative;
     width: 50%;
     height: 1000px;
     align-items: flex-end;
@@ -31,7 +32,7 @@
 .minititleLogin {
     margin-right: 2.9cm;
     border: solid;
-    height: 25px;
+    height: px;
 }
 
 .input {
@@ -44,17 +45,20 @@
 }
 
 .minititleLogin {
+      
+    margin-right: 2.9cm;
     margin-top: -3.5cm;
-    margin-left: 9cm;
-    font-family: 'Roboto;
-
+    /* toucher seulement au left pour decal horizontalement le formulaire */
+    margin-left: 12.5cm; 
+    border: none;
+    
 }
 
 .peloteLogin {
     width: 40px;
     height: 40px;
     margin-top: -3.7cm;
-    margin-left: 0.2cm;
+    margin-left: -2.7cm;
 }
 
 .input1 {
