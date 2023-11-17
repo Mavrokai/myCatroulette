@@ -27,12 +27,13 @@ img {
 
 .img-left {
     order: 1;
+    margin-left: 3%;
     border-radius: 40%;
 }
 
 .img-center {
     order: 2;
-    margin-left: 12.5%;
+    margin-left: 10%;
     border-radius: 45%;
 }
 
