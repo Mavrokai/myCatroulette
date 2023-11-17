@@ -9,33 +9,42 @@
 
 </head>
 
-<div id="loginTitle">
-    <header id="titleLogin">
-        <h1>My Catroulette</h1>
-    </header>
-    <img src="./Images/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" alt="Logo" id="Logo">
-</div>
-
-
-<body id="loginBody">
-    <img src="./Images/LoginPicture.jpeg" alt="chatMignon" id="catLogin">
-
-    <div>
-        <h3 id="minititleLogin">LOGIN</h3>
+<body class="loginBody">
+    <div id="loginTitle">
+        <header class="titleLogin">
+            <h1>My Catroulette</h1>
+        </header>
+        <img src="./Images/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" alt="Logo" class="Logo">
     </div>
 
-    <form action="Login" id="Formulaire">
-        Pseudo :
-        <input type="text" name="Pseudo" id="" placeholder="Pseudo"><br>
-        Mot de Passe :
-        <input type="text" name="motdePasse" id="" placeholder="Mot de Passe"><br>
-        <input type="checkbox" name="sesouvenirdeMoi" id=""> Se souvenir de moi <br>
-        <button type="submit">Continuer avec Google</button><br>
-            <button type="submit" id="loginButton">Connexion</button><br>
-            <button type="submit">Inscription</button><br>
-            <button type="submit">Confidentilité</button>
-    
-    </form>
+    <div class="formu">
+
+        <img src="./Images/LoginPicture.jpeg" alt="chatMignon" class="catLogin">
+
+        <div>
+            <h2 class="minititleLogin">LOGIN</h2>
+        </div>
+        <img src="./Images/MicrosoftTeams-image (3).png" alt="pelote" class="peloteLogin">
+
+        <form action="Login" class="Formulaire">
+            <div class="input1">
+                Pseudo :
+                <input type="text" class="input1Box" name="Pseudo" placeholder="Pseudo" required><br>
+            </div><br>
+            <div class="input2">
+                Mot de Passe :
+                <input type="text" class="input2Box" name="motdePasse" id="" placeholder="Mot de Passe" required><br>
+            </div><br>
+            <input type="checkbox" class="checkbox" name="sesouvenirdeMoi" id=""> Se souvenir de moi <br>
+            <button type="submit" class="google">Continuer avec Google</button><br>
+            <button type="submit" class="loginButton">Connexion</button><br>
+            <button type="submit" class="inscriButton">Inscription</button><br>
+            <button type="submit" class="confiButton">Confidentilité</button>
+
+        </form>
+    </div>
+
+
 </body>
 
 </html>

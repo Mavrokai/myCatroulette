@@ -1,14 +1,11 @@
-#titleLogin{
+.titleLogin {
     text-align: center;
     background-color: rgba(245, 137, 137, 0.25);
     margin: -20px;
     border: solid 2px;
-    border-bottom-left-radius: 10in;
-    border-bottom-right-radius: 10in;
-    
 }
 
-#Logo{
+.Logo {
 position: absolute;
 width: 85px;
 height: 85px;
@@ -17,44 +14,94 @@ top: -10px;
 background: url(MEDIA_CRUELTY-FREEKITTY_150x@2x.png);
 }
 
-#loginBody{
+.loginBody {
     background-image: url(./Images/MicrosoftTeams-image\ \(2\).png);
     background-size: cover;
 }
 
-#catLogin{
-    margin-left: -8px;
-    margin-top: 0.54cm;
+.catLogin {
+    width: 50%;
+    height: 30cm;
+    align-items: flex-end;
+    margin-left: -0.21cm;
+    margin-top: -7.456cm;
     border-right: solid;
 }
 
-#Formulaire{
-    float: right;
-    margin-top: -15cm;
+.Formulaire .minititleLogin {
+    margin-right: 0;
 }
 
-#loginButton{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 8px 16px;
-
-width: 105px;
-height: 32px;
-
-background: #AFDFEA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
-border-radius: 8px;
-
-flex: none;
-order: 0;
-flex-grow: 0;
-color: #FFFFFF;
-border: 0.5px solid #F2BBBB;
+.input{
+    margin-right: 0%;
 }
+
+.formu{
+    display: flex;
+    margin-top: 8cm;
+}
+
+.minititleLogin {
+    margin-top: -3.5cm;
+    margin-left: 9cm;
+    font-family: 'Roboto;
+}
+
+.peloteLogin {
+    width: 40px;
+    height: 40px;
+    margin-top: -3.7cm;
+    margin-left: 0.2cm;  
+}
+
+.input1 {
+    margin-top: -5px;
+    margin-left: -200px;
+
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.input1Box {
+box-sizing: border-box 10px;
+
+filter: drop-shadow(0.5px -0.5pgit add x 1.6px #000000);
+border-radius: 1000px;
+width: 150px;
+height: 25px;
+
+border: 1px solid #000000;
+border-radius: 100px;
+background-color: rgba(206, 245, 254, 1);
+}
+
+.input2 {
+    margin-top: 5px;
+    margin-left: -248px;
+
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.input2Box{
+    box-sizing: border-box 10px;
+
+    filter: drop-shadow(0.5px -0.5px 1.6px #000000);
+    border-radius: 1000px;
+
+    width: 150px;
+    height: 25px;
+
+    border: 1px solid #000000;
+    border-radius: 100px;
+
+    background-color: rgba(206, 245, 254, 1);
+}
+ 
+/* html { overflow-y: hidden; } */
+
+html { overflow-x: hidden; }
+
+main { overflow-y: visible }
+
+main { overflow-y: auto }
