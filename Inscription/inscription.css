@@ -1,0 +1,24 @@
+header{
+    width: 1558px;
+    height: 75px;
+    background-position: 10px 10px 10px;
+    background-color: rgba(251, 218, 218, 1);
+    text-align: center;
+    background-size: cover;
+}
+#Logo{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: -5px;
+    top: -10px;
+}
+
+body{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin: -22px;
+    background-image: url(./image/pngtree-sky-bright-pastel-colors-summer-tropical-background-sky-bright-pastel-colors-photo-image_2160264.jpg);
+    background-size: cover;
+}
