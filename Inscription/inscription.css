@@ -1,10 +1,7 @@
 header{
-    width: 1558px;
-    height: 75px;
-    background-position: 10px 10px 10px;
     background-color: rgba(251, 218, 218, 1);
     text-align: center;
-    background-size: cover;
+    border: solid 2px;
 }
 #Logo{
     position: absolute;
@@ -17,8 +14,27 @@ header{
 body{
     width: 100%;
     text-align: center;
-    margin-top: 0px;
-    margin: -22px;
+    margin: 0;
     background-image: url(./image/pngtree-sky-bright-pastel-colors-summer-tropical-background-sky-bright-pastel-colors-photo-image_2160264.jpg);
     background-size: cover;
 }
+#MyCatRoulette{
+    width: auto;
+    
+}
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .valid {
+    color: green;
+  }
+
+  form{
+    margin-top: 20px;
+  }
+
+  #FirstName { border: solid 1px;
+    border-radius: 100px ;
+    background-color: aqua;
+  }
