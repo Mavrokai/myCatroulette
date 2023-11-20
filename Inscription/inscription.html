@@ -1,24 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="inscription.css">
 </head>
-<header>
-    <img src="./image/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" alt="" id="Logo">
-    <h1>My CatRoulette</h1>
-</header>
 <body>
-   <tbody>
-    Votre Nom   <input type="text" name="LastName" id="">
-    <p>
-        Votre Prénom <input type="text" name="FirstName" id="">
+    <header>
+        <img src="./image/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" alt="" id="Logo">
+        <p id="MyCatRoulette">
+        <h1>My Catroulette</h1>
         </p>
-    <p>
-        Votre Adresse Mail <input type="email" name="Mail" id="">
-    </p>
-   </tbody>
+    </header>
+        <form action="Formulaire">
+            <div>
+            Votre Nom: <br> <input type="LastName" name="LastName" id="LastName" placeholder="Nom" required>
+            <p>
+                Votre Prénom: <br> <input type="FirstName" name="FirstName" id="FirstName" placeholder="Prénom" required>
+            </p>
+            <p>
+                Votre Adresse Mail: <br> <input type="email" name="Mail" id="Mail" placeholder="Adresse Mail" required>
+            </p>
+            <p>
+                Votre Pseudo: <br> <input type="text" name="Pseudo" id="Pseudo" placeholder="Pseudo" required>
+            </p>
+            <p>
+                Votre Mot De Passe: <br> <input type="password" name="password" id="psw" placeholder="********"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Votre mot de passe doit contenir minimum 8 caractères, une lettre minuscule, une lettre majuscule, un chiffre"
+                    required>
+            </p>
+            <button><input type="submit" value="valider"></button>
+        </div>
+            <div id="message">
+                <h3>Votre <b>Mot de Passe</b> doit contenir :</h3>
+                <p id="letter" class="invalid"> une lettre <b>Minuscule</b></p>
+                <p id="capital" class="invalid"> une lettre <b>Majuscule</b></p>
+                <p id="number" class="invalid"> un <b>Nombre</b></p>
+                <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+            </div>
+    </form>
 </body>
+
 </html>
