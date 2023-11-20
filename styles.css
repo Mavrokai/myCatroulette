@@ -24,16 +24,11 @@
     width: 50%;
     height: 1000px;
     align-items: flex-end;
-    margin-left: -0.21cm;
-    margin-top: -7.456cm;
+    margin-left: -7.613px;
+    margin-top: -283px;
     border-right: solid 3px;
 }
 
-.minititleLogin {
-    margin-right: 2.9cm;
-    border: solid;
-    height: px;
-}
 
 .input {
     margin-right: 0%;
@@ -41,35 +36,53 @@
 
 .formu {
     display: flex;
-    margin-top: 8cm;
+    margin-top: 302px;
 }
 
 .minititleLogin {
-      
-    margin-right: 2.9cm;
-    margin-top: -3.5cm;
-    /* toucher seulement au left pour decal horizontalement le formulaire */
-    margin-left: 12.5cm; 
-    border: none;
+    margin-top: 5px;
+    margin-left: -100px;
+    position: relative;
     
 }
 
 .peloteLogin {
+    position: absolute;
     width: 40px;
     height: 40px;
-    margin-top: -3.7cm;
-    margin-left: -2.7cm;
+    margin-top: -55px;
+    margin-left: -18px;
 }
+
+
+.Formulaire {
+      
+    margin-right: 0px;
+    margin-top: -180px;
+    /* toucher seulement au left pour decal horizontalement le formulaire */
+    margin-left: 410px; 
+    border: none;
+    
+}
+
 
 .input1 {
     margin-top: -5px;
-    margin-left: -200px;
+    margin-left: -190px;
 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 20px;
+    font-size: 17px;
 }
 
-.input1Box {
+.input2 {
+    margin-top: -5px;
+    margin-left: -235px;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+}
+
+.input1Box , .input2Box{
     box-sizing: border-box 10px;
     transition: background-color .3s, box-shadow .3s;
 
@@ -87,38 +100,10 @@
     background-color: rgba(206, 245, 254, 1);
 }
 
-.input1Box:hover {
+.input1Box:hover , .input2Box:hover {
     background-color: rgb(242, 187, 187, 1);
 }
 
-.input2 {
-    margin-top: -5px;
-    margin-left: -252px;
-
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 20px;
-}
-
-.input2Box {
-    box-sizing: border-box 10px;
-    transition: background-color .3s, box-shadow .3s;
-
-
-    filter: drop-shadow(0.5px -0.5px 1.6px #000000);
-    border-radius: 1000px;
-
-    width: 175px;
-    height: 30px;
-
-    border: 1px solid #000000;
-    border-radius: 100px;
-
-    background-color: rgba(206, 245, 254, 1);
-}
-
-.input2Box:hover {
-    background-color: rgb(242, 187, 187, 1);
-}
 
 .checkbox {
     margin-top: 7px;
