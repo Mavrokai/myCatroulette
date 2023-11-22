@@ -1,7 +1,6 @@
 .titleLogin {
     text-align: center;
     background-color: rgba(251, 218, 218, 1);
-    margin: -20px;
     border: solid 3px;
 }
 
@@ -10,13 +9,15 @@
     width: 85px;
     height: 85px;
     left: -5px;
-    top: -10px;
+    top: -2px;
     background: url(MEDIA_CRUELTY-FREEKITTY_150x@2x.png);
 }
 
 .loginBody {
     background-image: url(./Images/MicrosoftTeams-image\ \(2\).png);
     background-size: cover;
+    width: 100%;
+    margin: 0;
 }
 
 .catLogin {
@@ -25,7 +26,7 @@
     height: 1000px;
     align-items: flex-end;
     margin-left: -7.613px;
-    margin-top: -283px;
+    margin-top: -303px;
     border-right: solid 3px;
 }
 
