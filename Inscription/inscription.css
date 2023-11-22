@@ -1,7 +1,8 @@
 header {
-  background-color: rgba(251, 218, 218, 1);
   text-align: center;
-  border: solid 2px;
+  background-color: rgba(251, 218, 218, 1);
+  margin: -20px;
+  border: solid 3px;
 }
 
 
@@ -38,14 +39,22 @@ body {
   width: auto;
 
 }
-
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-}
-
 .valid {
-  color: green;
+
+  box-sizing: border-box 10px;
+  transition: background-color .3s, box-shadow .3s;
+
+
+  filter: drop-shadow(0.5px -0.5px 1.6px #000000);
+  border-radius: 1000px;
+
+  filter: drop-shadow(0.5px -0.5pgit add x 1.6px #000000);
+  border-radius: 1000px;
+  width: 175px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  background-color: rgba(224, 239, 254, 1);
 }
 
 form {
@@ -53,7 +62,84 @@ form {
 }
 
 .FirstName {
-  border: solid 1px;
+  box-sizing: border-box 10px;
+  transition: background-color .3s, box-shadow .3s;
+
+
+  filter: drop-shadow(0.5px -0.5px 1.6px #000000);
+  border-radius: 1000px;
+
+  filter: drop-shadow(0.5px -0.5pgit add x 1.6px #000000);
+  border-radius: 1000px;
+  width: 175px;
+  height: 30px;
+  border: 1px solid #000000;
   border-radius: 100px;
-  background-color: aqua;
+  background-color: rgba(224, 239, 254, 1);
+}
+.LastName {
+  box-sizing: border-box 10px;
+  transition: background-color .3s, box-shadow .3s;
+
+  filter: drop-shadow(0.5px -0.5px 1.6px #000000);
+  border-radius: 1000px;
+
+  filter: drop-shadow(0.5px -0.5pgit add x 1.6px #000000);
+  border-radius: 1000px;
+  width: 175px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  background-color: rgba(224, 239, 254, 1);
+}
+
+#Mail {
+  box-sizing: border-box 10px;
+  transition: background-color .3s, box-shadow .3s;
+
+
+  filter: drop-shadow(0.5px -0.5px 1.6px #000000);
+  border-radius: 1000px;
+
+  filter: drop-shadow(0.5px -0.5pgit add x 1.6px #000000);
+  border-radius: 1000px;
+  width: 175px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  background-color: rgba(224, 239, 254, 1);
+}
+
+#Pseudo {
+  box-sizing: border-box 10px;
+  transition: background-color .3s, box-shadow .3s;
+
+
+  filter: drop-shadow(0.5px -0.5px 1.6px #000000);
+  border-radius: 1000px;
+
+  filter: drop-shadow(0.5px -0.5pgit add x 1.6px #000000);
+  border-radius: 1000px;
+  width: 175px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  background-color: rgba(224, 239, 254, 1);
+}
+
+#psw {
+  box-sizing: border-box 10px;
+  transition: background-color .3s, box-shadow .3s;
+
+
+  filter: drop-shadow(0.5px -0.5px 1.6px #000000);
+  border-radius: 1000px;
+
+  filter: drop-shadow(0.5px -0.5pgit add x 1.6px #000000);
+  border-radius: 1000px;
+  width: 175px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  background-color: rgba(224, 239, 254, 1);
 }
