@@ -4,23 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inscription</title>
     <link rel="stylesheet" href="inscription.css">
+
 </head>
 
 <body>
     <header>
-        <img src="./image/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" alt="" id="Logo">
-        <p id="MyCatRoulette">
+        <img src="./image/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" alt="Logo" class="Logo">
+        <p class="MyCatRoulette">
         <h1>My Catroulette</h1>
         </p>
     </header>
     <form action="Formulaire">
+        <img src="./image/retour-removebg-preview.png" alt="retour" class="Retour" onclick="window.location = 'http://127.0.0.1:5501/Login/Login.html';">
         <div>
             Votre Nom: <br> <input type="LastName" name="LastName" id="LastName" placeholder="Nom" required>
             <p>
-                Votre Prénom: <br> <input type="FirstName" name="FirstName" id="FirstName" placeholder="Prénom"
-                    required>
+                Votre Prénom: <br> <input type="FirstName" name="FirstName" class="FirstName" placeholder="Prénom"           required>
             </p>
             <p>
                 Votre Adresse Mail: <br> <input type="email" name="Mail" id="Mail" placeholder="Adresse Mail" required>
