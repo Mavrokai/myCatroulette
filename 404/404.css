@@ -3,12 +3,14 @@
     src: url('../Fonts/knewave.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+
 }
 
 body {
     font-size: 150%;
     box-sizing: border-box;
     background-color: rgb(110, 188, 215);
+    overflow: hidden;
 
 }
 
@@ -22,6 +24,7 @@ h1 {
     font-family: 'knewave', sans-serif;
     color: #fcb26e;
     text-shadow: -4px -4px 4px #86613f, 4px -4px 4px #86613f, -4px 4px 4px #86613f, 4px 4px 4px #86613f;
+
 }
 
 .flex {
@@ -30,27 +33,30 @@ h1 {
     justify-content: space-between;
     margin-left: -12px;
     margin-right: -8px;
-    
+
 
 }
 
 #fuck {
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
     align-self: flex-start;
+    margin-left: -10px;
 
 }
 
 #vomi_img {
-    width: 8%;
-    height: 8%;
+    width: 10%;
+    height: 10%;
     border-radius: 20%;
-    margin-top: -25px;
+    margin-top: -50px;
+    align-self:center;
 
 }
 
 p {
     text-align: center;
+    align-self:center;
     font-size: 200%;
     margin-top: -5px;
     font-family: 'knewave', sans-serif;
@@ -60,33 +66,42 @@ p {
 }
 
 #poteau {
-    width: 12%;
-    height: 12%;
+    width: 20%;
+    height: 20%;
     justify-content: flex-end;
+    margin-right: -10px;
+    margin-top: -10px;
 }
 
 .flex2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+
 }
 
 #moche {
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 25%;
     align-self: flex-start;
-    
+    margin-top: 0;
+    margin-left: -25px;
+
 }
 
 #louche {
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
+    margin-bottom: -30px;
 
 }
 
 #triste {
-    width: 15%;
-    height: 15%;
-    align-self: flex-end;
+    width: 25%;
+    height: 25%;
+    align-self: flex-start;
+    margin-top: 0;
+    margin-right: -8px;
 
 }
