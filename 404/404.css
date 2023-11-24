@@ -46,11 +46,18 @@ h1 {
 }
 
 #vomi_img {
+    
     width: 10%;
     height: 10%;
     border-radius: 20%;
     margin-top: -50px;
     align-self:center;
+    
+
+}
+
+vomi :hover {
+    animation-name: ;
 
 }
 
@@ -105,5 +112,6 @@ p {
     align-self: flex-start;
     margin-top: 0;
     margin-right: -8px;
+
 
 }
