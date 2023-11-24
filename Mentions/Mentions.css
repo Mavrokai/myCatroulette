@@ -10,12 +10,11 @@
 #logo {
   width: 105px;
   height: 105px;
-  margin-left: -20px;
-  margin-top: -10px;
+  margin-top: -5px;
+  margin-left: -15px;
 }
 
 h1 {
-  margin-left: -30px;
   margin-top: -75px;
   text-align: center;
 }
@@ -24,6 +23,7 @@ body {
   background-image: url(../Images/MicrosoftTeams-image\ \(2\).png);
   background-size: cover;
   overflow: hidden;
+  margin: 0;
 }
 
 .mentions {
@@ -37,5 +37,5 @@ body {
   overflow-y: scroll;
   scrollbar-width: thin;
   box-shadow: 1px 1px 10px rgb(0, 0, 0);
-  
+
 }
