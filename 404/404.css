@@ -14,7 +14,6 @@ body {
 
 }
 
-
 #vomi {
     border-radius: 30%;
 }
@@ -34,7 +33,6 @@ h1 {
     margin-left: -12px;
     margin-right: -8px;
 
-
 }
 
 #fuck {
@@ -46,30 +44,25 @@ h1 {
 }
 
 #vomi_img {
-    
+
     width: 10%;
     height: 10%;
     border-radius: 20%;
     margin-top: -50px;
-    align-self:center;
-    
+    align-self: center;
 
-}
-
-vomi :hover {
-    animation-name: ;
 
 }
 
 p {
     text-align: center;
-    align-self:center;
+    align-self: center;
     font-size: 200%;
     margin-top: -5px;
     font-family: 'knewave', sans-serif;
     color: #fcb26e;
     text-shadow: -1px -1px 0 #86613f, 1px -1px 0 #86613f, -1px 1px 0 #86613f, 1px 1px 0 #86613f;
-    
+
 
 }
 
@@ -86,7 +79,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 
 }
 
