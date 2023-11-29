@@ -3,9 +3,6 @@ header {
   background-color: rgba(251, 218, 218, 1);
   border: solid 3px;
 }
-
-
-
 .Logo {
   position: absolute;
   width: 85px;
@@ -13,6 +10,7 @@ header {
   left: -5px;
   top: -2px;
   cursor: pointer;
+  top: -10px;
 }
 
 .Retour {

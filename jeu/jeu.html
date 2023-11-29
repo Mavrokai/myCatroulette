@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jeu de Chat</title>
+  <style>
+    #gameContainer {
+      width: 400px;
+      height: 400px;
+      border: 1px solid #000;
+      position: relative;
+      overflow: hidden;
+    }
+    .cat {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <h1>Jeu de Chat</h1>
+  <div id="gameContainer">
+    <img class="cat" src="./image/pixilart-drawing.png" alt="Chat" style="left: 0; top: 0;">
+  </div>
+  <audio id="catSound">
+    <source src="./son/Nounours.mp3" type="audio/mp3">
+  </audio>
+
+  <script>
+    const cat = document.querySelector('.cat');
+    let posX = 0;
+    let posY = 0;
+    const catSound = document.getElementById('catSound');
+    document.addEventListener('keydown', (event) => {
+      const step = 10;
+      if (event.code === 'ArrowRight') {
+        posX += step;
+        cat.style.left = posX + 'px';
+      } else if (event.code === 'ArrowLeft') {
+        posX -= step;
+        cat.style.left = posX + 'px';
+      } else if (event.code === 'ArrowUp') {
+        posY -= step;
+        cat.style.top = posY + 'px';
+      } else if (event.code === 'ArrowDown') {
+        posY += step;
+        cat.style.top = posY + 'px';
+      }
+      else if (event.code === 'KeyM') {
+        catSound.play()
+    }
+    } 
+    );
+
+  </script>
+</body>
+</html>
