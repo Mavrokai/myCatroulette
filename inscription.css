@@ -1,17 +1,15 @@
 header {
   text-align: center;
   background-color: rgba(251, 218, 218, 1);
-  margin: -20px;
   border: solid 3px;
 }
-
-
-
 .Logo {
   position: absolute;
   width: 85px;
   height: 85px;
   left: -5px;
+  top: -2px;
+  cursor: pointer;
   top: -10px;
 }
 
@@ -21,7 +19,6 @@ header {
   margin-right: 1450px;
   margin-top: 10px;
   cursor: pointer;
-
   position: relative;
 }
 
@@ -38,7 +35,7 @@ body {
   width: auto;
 
 }
-.valid {
+#submit {
 
   box-sizing: border-box 10px;
   transition: background-color .3s, box-shadow .3s;
@@ -53,14 +50,17 @@ body {
   height: 30px;
   border: 1px solid #000000;
   border-radius: 100px;
-  background-color: rgba(224, 239, 254, 1);
+  background-color: rgb(149, 240, 217);
 }
-
+#submit:hover {
+  background-color: rgb(114, 203, 111);
+}
 form {
   margin-top: 20px;
 }
 
 .FirstName {
+  text-align: center;
   box-sizing: border-box 10px;
   transition: background-color .3s, box-shadow .3s;
 
@@ -77,6 +77,7 @@ form {
   background-color: rgba(224, 239, 254, 1);
 }
 .LastName {
+  text-align: center;
   box-sizing: border-box 10px;
   transition: background-color .3s, box-shadow .3s;
 
@@ -93,6 +94,7 @@ form {
 }
 
 #Mail {
+  text-align: center;
   box-sizing: border-box 10px;
   transition: background-color .3s, box-shadow .3s;
 
@@ -110,6 +112,7 @@ form {
 }
 
 #Pseudo {
+  text-align: center;
   box-sizing: border-box 10px;
   transition: background-color .3s, box-shadow .3s;
 
@@ -127,6 +130,7 @@ form {
 }
 
 #psw {
+  text-align: center;
   box-sizing: border-box 10px;
   transition: background-color .3s, box-shadow .3s;
 
@@ -141,4 +145,34 @@ form {
   border: 1px solid #000000;
   border-radius: 100px;
   background-color: rgba(224, 239, 254, 1);
+}
+#Mail:hover, #Pseudo:hover, #psw:hover, .FirstName:hover, .LastName:hover{
+  background-color: rgb(242, 187, 187, 1);
+}
+
+.frame {
+  border-radius: 10%;
+  position: relative;
+  margin:auto;
+  text-align: center;
+  width: 300px; 
+  box-shadow: 1px 1px 1px 1px #000000;
+  background: rgba(255, 255, 255, 0.525);
+  padding-bottom: 20px;
+}
+
+#message{
+  margin: auto;
+  background: rgba(123, 213, 255, 0.404);
+  position: absolute;
+  border-radius: 10%;
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  text-align: center;
+  left: 250px;
+  top: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+input[type="submit"] {
+font-size: 150%;
 }

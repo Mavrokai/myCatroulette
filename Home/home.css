@@ -1,0 +1,55 @@
+.Logo {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: -5px;
+    top: -10px;
+    background: url(MEDIA_CRUELTY-FREEKITTY_150x@2x.png);
+}
+
+.body {
+    background-image: url(./Imagess/MicrosoftTeams-image\ \(2\).png);
+    background-size: cover;
+}
+
+
+.titleLogin {
+    text-align: center;
+    background-color: rgba(251, 218, 218, 1);
+    margin: -8px;
+    border: solid 3px;
+}
+
+
+.catH3 {
+    text-align: center;
+}
+
+.mentionButton {
+    margin-left: 1260px;
+    margin-top: 450px;
+    padding: center;
+    height: 50px;
+    width: 225px;
+    transition: background-color .3s, box-shadow .3s;
+    cursor: pointer;
+
+
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    border: none;
+    border-radius: 8px;
+
+
+    background-color: rgba(224, 239, 254, 1);
+
+
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 3px rgba(0, 0, 0, .25);
+}
+
+.mentionButton:hover {
+    background-color: rgba(242, 187, 187, 1);
+}
