@@ -11,11 +11,6 @@
     top: -2px;
 }
 
-.profilRight {
-    text-align: right;
-    margin-right: 250px;
-}
-
 
 .boxP {
 position: absolute;
@@ -41,3 +36,30 @@ border-radius: 10px;
 
 
 }
+
+.borderIcon {
+    border: solid 3px red;
+    border-radius: 25%;
+    margin-left: 81%;
+    position: absolute;
+    width: 2.5%;
+    height: 4.5%;
+}
+
+.msgBienvenue {
+    text-align: right;
+    margin-right: 11.7%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 75, 75);
+}
+
+.user {
+    text-align: right;
+    margin-top: -0.5%;
+    margin-right: 12.6%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
