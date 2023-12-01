@@ -11,33 +11,72 @@
     top: -2px;
 }
 
-.profilRight {
-    text-align: right;
-    margin-right: 250px;
-}
-
 
 .boxP {
-position: absolute;
-width: 900px;
-height: 828px;
-left: 450px;
-top: 102px;
+    position: absolute;
+    width: 900px;
+    height: 828px;
+    left: 450px;
+    top: 102px;
 
-background: rgba(252, 252, 252, 0.60);
-box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16), 0px 10px 20px rgba(194, 194, 194, 0.16);
-border-radius: 10px;
+    background: rgba(252, 252, 252, 0.60);
+    box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16), 0px 10px 20px rgba(194, 194, 194, 0.16);
+    border-radius: 10px;
 }
 
-.boxS{
+.selectionPP {
+    text-align: center;
+
+box-sizing: border-box;
+
 position: absolute;
-width: 259px;
-height: 828px;
-left: -275px;
-
-background: rgba(252, 252, 252, 0.60);
-box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16);
-border-radius: 10px;
+width: 14%;
+height: 15%;
+margin-top: 14%;
+margin-left: 4%;
 
 
+background: #EDF2F7;
+border: 1px dashed #4C535F;
+border-radius: 18px;
+
+}
+
+.boxS {
+    position: absolute;
+    width: 259px;
+    height: 828px;
+    left: -275px;
+
+    background: rgba(252, 252, 252, 0.60);
+    box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16);
+    border-radius: 10px;
+
+
+}
+
+.borderIcon {
+    border: solid 3px red;
+    border-radius: 25%;
+    margin-left: 81%;
+    position: absolute;
+    width: 2.5%;
+    height: 4.5%;
+}
+
+.msgBienvenue {
+    text-align: right;
+    margin-right: 11.7%;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #717B8C;
+}
+
+.user {
+    text-align: right;
+    margin-top: -0.5%;
+    margin-right: 12.6%;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000000;
 }
