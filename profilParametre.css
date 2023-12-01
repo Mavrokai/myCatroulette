@@ -11,56 +11,127 @@
     top: -2px;
 }
 
-.profilRight {
-    text-align: right;
-    margin-right: 250px;
-}
-
 
 .boxP {
-position: absolute;
-width: 900px;
-height: 828px;
-left: 450px;
-top: 102px;
+    position: absolute;
+    width: 900px;
+    height: 828px;
+    left: 450px;
+    top: 102px;
 
-background: rgba(252, 252, 252, 0.60);
-box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16), 0px 10px 20px rgba(194, 194, 194, 0.16);
-border-radius: 10px;
+    background: rgba(252, 252, 252, 0.60);
+    box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16), 0px 10px 20px rgba(194, 194, 194, 0.16);
+    border-radius: 10px;
 }
 
-.boxS{
-position: absolute;
-width: 259px;
-height: 828px;
-left: -275px;
-
-background: rgba(252, 252, 252, 0.60);
-box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16);
-border-radius: 10px;
-}
-
-.navItems{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-    background-image: linear-gradient(to right, #f59797, #7ED1EB);
-      color: transparent; /* Rend le texte transparent */
-      -webkit-background-clip: text; /* Pour les navigateurs WebKit (Safari, Chrome) */
-      background-clip: text;
-    .homeImage{
-        margin-top: 30px;
-        margin-left: 30px;
-        height: 40px; 
-        width: 40px;
-    }
-    .actiImage{
-        margin-top: 30px;
-        margin-left: 30px;
-        height: 40px; 
-        width: 40px;
-    }
+.I {
+    margin-left: 1.2%;
+    margin-top: 3%;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
     
+    .h1{
+        transition: border 0.2s ease;
+        border-bottom: solid 1px black;
+        
+
+    }
+
+    .h1:hover {
+        transition: border, color 0.2s ease;
+        border-bottom:  solid 1.5px rgba(245, 171, 173, 1);
+        color: rgba(245, 171, 173, 1);
+    }
 }
 
+.T {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20px;
+
+    font-size: 15.5px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.selectionPP {
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 14%;
+    height: 15%;
+    margin-top: 14%;
+    margin-left: 4%;
+    background: #EDF2F7;
+    border: 1px dashed #4C535F;
+    border-radius: 18px;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    cursor: pointer;
+
+    .imageInsertion {
+        width: 60px;
+        margin-top: 8%;
+    }
+
+    .textPP {
+        text-align: center;
+        font-size: 100%;
+        margin-top: 1%;
+    }
+
+}
+
+.boxS {
+    margin-top: -5.4%;
+    position: absolute;
+    width: 259px;
+    height: 828px;
+    margin-left: -30%;
+
+    background: rgba(252, 252, 252, 0.60);
+    box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16);
+    border-radius: 10px;
+
+
+}
+
+.sepa {
+    position:absolute;
+    border: solid 1px;
+    margin-top: 30%;
+    margin-left: -30%;
+    width: 900px;
+    cursor: default;
+    color: #b2b7bf;
+}
+
+.borderIcon {
+    border: dashed 3px grey;
+    border-radius: 17px;
+    margin-left: 79%;
+    position: absolute;
+    width: 2.5%;
+    height: 5%;
+}
+
+.msgBienvenue {
+    text-align: right;
+    margin-right: 11.7%;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #717B8C;
+}
+
+.user {
+    text-align: right;
+    margin-top: -1%;
+    margin-right: 13%;
+    font-size: 17px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #000000;
+}
