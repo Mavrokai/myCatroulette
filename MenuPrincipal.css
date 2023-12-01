@@ -74,6 +74,7 @@ section {
     max-width: 800px;
     height: 350px;
     position: relative;
+    margin-top: -400px;
     /* overflow: hidden; */
   }
   
@@ -124,4 +125,18 @@ section {
     position: relative;
     overflow: hidden;  /* <===  */
     border-radius: 15px;
+  }
+
+  .logotext {
+    width: 85px;
+    height: 85px;
+    margin-top: -115px;
+    margin-left: -15px;
+    position: absolute;
+  }
+
+  h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+    font-size: 50px;
   }
