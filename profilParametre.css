@@ -135,3 +135,42 @@
     font-family: 'Fira Sans', sans-serif;
     color: #000000;
 }
+
+#nomComplet{
+    margin-top: 100px;
+    width: 200%;
+    height: 35px;
+
+
+background: linear-gradient(0deg, #EDF2F7, #EDF2F7), #FFFFFF;
+border: 1px solid #E0E4EC;
+border-radius: 8px;
+transition: background, color 0.2s ease;
+
+
+}
+
+#nomComplet:focus {
+    transition: background, color 0.2s ease;
+    background: rgb(242, 187, 187, 1);;
+    border: 1px solid #000000;
+
+}
+
+#nomUser {
+    margin-top: 25px;
+    width: 200%;
+    height: 35px;
+
+    background: linear-gradient(0deg, #EDF2F7, #EDF2F7), #FFFFFF;
+border: 1px solid #E0E4EC;
+border-radius: 8px;
+transition: background, color 0.2s ease;
+}
+
+#nomUser:focus {
+    transition: background, color 0.2s ease;
+    background: rgb(242, 187, 187, 1);;
+    border: 1px solid #000000;
+
+}
