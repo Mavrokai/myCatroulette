@@ -22,10 +22,7 @@
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
-.logoIMG{
-    width: 25px;
-    height: 25px;
-}
+
 .dark-mode-variables{
     --color-background: #181a1e;
     --color-white: #202528;
@@ -57,7 +54,8 @@ body{
     user-select: none;
     overflow-x: hidden;
     color: var(--color-dark);
-    background-color: var(--color-background);
+    background-image: url(./Images/MicrosoftTeams-image\ \(2\).png);
+    background-size: cover;
 }
 
 a{
@@ -106,7 +104,7 @@ b{
 }
 
 .danger{
-    color: var(--color-danger);
+    color: rgba(245, 171, 173, 1);
 }
 
 .success{
