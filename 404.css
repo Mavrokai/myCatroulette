@@ -16,6 +16,7 @@ body {
 
 #vomi {
     border-radius: 30%;
+    margin-left: 30px;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
     font-family: 'knewave', sans-serif;
     color: #fcb26e;
     text-shadow: -4px -4px 4px #86613f, 4px -4px 4px #86613f, -4px 4px 4px #86613f, 4px 4px 4px #86613f;
-
+    margin-left: -20px;
 }
 
 .flex {
@@ -102,5 +103,11 @@ p {
 #triste {
     align-self: flex-end;
     margin-right: -285px;
+
+}
+
+#Bulle1 {
+    position: absolute;
+    margin-bottom: 400px;
 
 }
