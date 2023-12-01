@@ -3,17 +3,18 @@ header {
   background-color: rgba(251, 218, 218, 1);
   border: solid 3px;
 }
+
 .Logo {
   position: absolute;
   width: 85px;
   height: 85px;
   left: -5px;
   top: -2px;
-  cursor: pointer;
-  top: -10px;
+  background: url(MEDIA_CRUELTY-FREEKITTY_150x@2x.png);
 }
 
-.Retour{
+
+.Retour {
   width: 50px;
   height: 48px;
   margin-right: 1450px;
@@ -27,7 +28,7 @@ body {
   width: 100%;
   text-align: center;
   margin: 0;
-  background-image: url(./image/pngtree-sky-bright-pastel-colors-summer-tropical-background-sky-bright-pastel-colors-photo-image_2160264.jpg);
+  background-image: url(./Images/MicrosoftTeams-image\ \(2\).png);
   background-size: cover;
 }
 
@@ -58,6 +59,7 @@ body {
 form {
   margin-top: 20px;
 }
+
 
 .FirstName {
   text-align: center;
@@ -151,28 +153,93 @@ form {
 }
 
 .frame {
+  backdrop-filter: blur(50px);
   border-radius: 10%;
   position: relative;
   margin:auto;
   text-align: center;
   width: 300px; 
-  box-shadow: 1px 1px 1px 1px #000000;
-  background: rgba(255, 255, 255, 0.525);
+  box-shadow: 3px 5px 20px 0.5px #000000;
   padding-bottom: 20px;
 }
 
-#message{
-  margin: auto;
-  background: rgba(123, 213, 255, 0.404);
-  position: absolute;
-  border-radius: 10%;
-  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
-  text-align: center;
-  left: 250px;
-  top: 250px;
-  padding-left: 20px;
-  padding-right: 20px;
+
+#message {
+  margin-top: -370px;
+  margin-left: 125px;
+  width: 375px;
+  height: 375px;
+  color: #fff;
+  background-image: url(./Images/login2.0.jpg);
+  background-size: cover;
+  background-position-x: 5px;
+  background-position-y: -200px;
+  border: none;
+  border-radius: 50%; 
+  position: relative;
+  transition: .3s;
+  backdrop-filter: blur(50px);
 }
-input[type="submit"] {
-font-size: 150%;
+
+.condition {
+  margin-top: 85px;
+  margin-left: 35px;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em #000000, 0 0 0.2em #000000;
+}
+
+#message:before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  padding: 10px;
+  border-radius: 50%; 
+  background: conic-gradient(
+        #F58989 ,
+        black 30deg 120deg,
+        #CDF6FF 150deg 180deg,
+        black 210deg 300deg,
+        #F58989 330deg
+    );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: intersect
+}
+#message:after {
+  position: absolute;
+  inset: -100px;
+  background:
+    radial-gradient(200px at left  400px top 150px,#F58989 100%,#0000),
+    radial-gradient(200px at right 400px bottom 150px,#CDF6FF 100%,#0000);
+  filter: blur(160px);
+  opacity: .3;
+}
+
+#message:before,
+#message:after {
+  transition:.5s, 99999s 99999s transform;
+}
+#message:hover {
+  box-shadow: 0 0 0 1px #666;
+}
+
+#message:hover:before,
+#message:hover:after {
+  transform: rotate(36000deg);
+  transition: .5s,600s linear transform;
+}
+#message:before {
+  background-color: #222;
+    border: 2px solid #333;
+}
+
+
+.lastName, .firstName, .mail, .pseudo, .password {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
 }
