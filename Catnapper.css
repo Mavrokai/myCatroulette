@@ -1,3 +1,11 @@
+
+@font-face {
+  font-family: 'knewave';
+  src: url('./Fonts/KaushanScript-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
 .frame {
     width: 100%;
     height: 80px;
@@ -18,6 +26,11 @@ h1 {
     margin-top: -75px;
     text-align: center;
     align-items: center;
+    color: gold;
+    font-family: 'KaushanScript-Regular', sans-serif;
+}
+h2 {
+    color: rgb(226, 43, 43);
 }
 
 .Retour {
@@ -30,6 +43,14 @@ h1 {
     position: relative;
 }
 
+#gif1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 170px;
+    width: 15%;
+    border-radius: 30px;
+}
+
 body {
     background-color: darkgrey;
     overflow: hidden;
@@ -40,30 +61,79 @@ body {
     width: 350px;
     height: auto;
     text-align: center;
-    margin-top: -35px;
+    margin-top: -42px;
     background: #d9d9d9;
     margin-left: 36.5%;
     border-radius: 30px;
   }
 
-  #CatnapperLogo {
-    width: 15%;
-    height: 15%;
-    margin-left: 43%;
-    
-  }
-
   .flex {
     display: flex;
     flex-direction: row;
-    margin-bottom: 0px;
+    justify-content: space-between;
+    margin-top: -40px;
+  }
+
+  #Col1 {
+    width: 25%;
+    height: 25%;
+    margin-top: -40px;
+    margin-left: 70px;
+  }
+
+  #CatnapperLogo {
+    width: 12%;
+    height: 12%;
+    margin-top: 20px;
+    margin-left: 30px;
+    align-self: center;
+    
+  }
+
+  #Col2 {
+    width: 25%;
+    height: 25%;
+    margin-top: -40px;
+    margin-right: 70px;
+  }
+
+
+  h3 {
+    text-align: center;
+    margin-right: -30px;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -53px;
   }
 
   #ChatTerro {
     width: 20%;
     height: 20%;
     margin-left: -10px;
+    margin-top: 15px;
     align-self: flex-start;
+    border-radius: 30px;
   }
 
- 
+  #gif2 {
+    width: 20%;
+    height: 20%;
+    margin-top: 40px;
+    margin-left: 35px;
+    align-self: center;
+    border-radius: 25px;
+  }
+
+  #Brutus {
+    width: 20%;
+    height: 20%;
+    margin-right: -10px;
+    margin-top: -80px;
+    align-self: flex-end;
+    border-radius: 30px;
+  }

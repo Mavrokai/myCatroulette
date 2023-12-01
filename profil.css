@@ -1,0 +1,179 @@
+header{
+    text-align: center;
+    background-color: rgba(251, 218, 218, 1);
+    border: solid 3px;
+  }
+.Logo{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: -5px;
+    top: -2px;
+    cursor: pointer;
+    top: -10px;
+  }
+  body {
+    text-align: center;
+    margin: 0;
+    background-image: url(./Images/MicrosoftTeams-image\ \(2\).png);
+    background-size: cover;
+
+  }
+    label{
+position: absolute;
+width: 380px;
+height: 600px;
+left: 1020px;
+top: 100x;
+background: #FDEEEE;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
+    }
+  
+.MyCatRoulette{
+    width: auto;
+}
+
+.profil{
+width: 150px;
+top: 120px;
+left: 700px;
+box-sizing: border-box;
+position: absolute;
+border: 5px solid #CDF6FF;
+border-radius: 5px 5px 5px 5px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+
+.text{
+position: absolute;
+width: 169px;
+height: 40px;
+left: 691px;
+top: 320px;
+background: #FDEEEE;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+border-radius: 25px;
+
+}
+.text2{
+
+position: absolute;
+width: 151px;
+height: 34px;
+left: 700px;
+top: 322px;
+background: #CDF6FF;
+border-radius: 25px;
+
+}
+
+.text3{
+
+position: absolute;
+width: 142px;
+height: 25px;
+left: 705px;
+top: 326px;
+background: #FFFFFF;
+border-radius: 25px;
+
+}
+
+.textage{
+position: absolute;
+width: 169px;
+height: 40px;
+left: 691px;
+top: 380px;
+background: #FDEEEE;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+border-radius: 25px;
+}
+
+.textage2{
+position: absolute;
+width: 151px;
+height: 34px;
+left: 700px;
+top: 382px;
+background: #CDF6FF;
+border-radius: 25px;
+}
+
+.textage3{
+position: absolute;
+width: 142px;
+height: 25px;
+left: 705px;
+top: 386px;
+background: #FFFFFF;
+border-radius: 25px;
+}
+
+.texto{
+  position: absolute;
+  width: 169px;
+  height: 40px;
+  left: 691px;
+  top: 440px;
+  background: #FDEEEE;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+}
+
+.texto2{
+  position: absolute;
+  width: 151px;
+  height: 34px;
+  left: 700px;
+  top: 442px;
+  background: #CDF6FF;
+  border-radius: 25px; 
+}
+
+.texto3{
+  position: absolute;
+  width: 142px;
+  height: 25px;
+  left: 705px;
+  top: 446px;
+  background: #FFFFFF;
+  border-radius: 25px; 
+}
+.bio{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  left: 669px;
+  top: 500px;
+  background: #FDEEEE;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+}
+.bio2{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 679px;
+  top: 510px;
+  background: #CDF6FF;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+}
+.bio3{
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  left: 684px;
+  top: 515px;
+  background: #ffffff;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+}
+.biographie{
+  position: absolute;
+  font-size: 13px;
+  left: 690px;
+  top: 515px;
+}
