@@ -17,7 +17,7 @@ header{
     margin: 0;
     background-image: url(./Images/MicrosoftTeams-image\ \(2\).png);
     background-size: cover;}
-    
+
     .sect1{
 position: absolute;
 width: 380px;
@@ -80,7 +80,7 @@ border-radius: 25px;
 }
 .text2{
 
-position: absolute;
+  position: absolute;
 width: 151px;
 height: 34px;
 left: 700px;
@@ -92,7 +92,7 @@ border-radius: 25px;
 
 .text3{
 
-position: absolute;
+  position: absolute;
 width: 142px;
 height: 25px;
 left: 705px;
@@ -198,4 +198,24 @@ border-radius: 25px;
   font-size: 13px;
   left: 690px;
   top: 515px;
+}
+
+.photo{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 120px;
+  top: 200px;
+  background: #FDEEEE;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px; 
+}
+.photo2{
+  position: absolute;
+  width: 180px;
+  height: 34px;
+  left: 130px;
+  top: 210px;
+  background: #CDF6FF;
+  border-radius: 25px;  
 }
