@@ -56,6 +56,7 @@ border-radius: 25px;
     width: auto;
 }
 
+
 .profil{
 width: 150px;
 top: 120px;
@@ -218,4 +219,54 @@ border-radius: 25px;
   top: 210px;
   background: #CDF6FF;
   border-radius: 25px;  
+}
+
+.photo3{
+  position: absolute;
+  width: 160px;
+  height: 25px;
+  left: 140px;
+  top: 214px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.galerie{
+position: absolute;
+width: 450px;
+height: 300px;
+left: 30px;
+top: 280px;
+background: #FDEEEE;
+box-shadow: 0px 4px 4px #AFDFEA;
+border-radius: 4px 0px 0px 4px;
+}
+.p{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 80px;
+  border: solid 1px black;
+}
+.p2{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 200px;
+  border: solid 1px black;
+}
+.p3{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 320px;
+  border: solid 1px black;
+}
+.p4{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 80px;
+  top: 400px;
+  border: solid 1px black;
 }
