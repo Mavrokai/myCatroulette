@@ -16,16 +16,38 @@ header{
     text-align: center;
     margin: 0;
     background-image: url(./Images/MicrosoftTeams-image\ \(2\).png);
-    background-size: cover;
+    background-size: cover;}
 
-  }
-    label{
+    .sect1{
 position: absolute;
 width: 380px;
 height: 600px;
 left: 1020px;
-top: 100x;
+top: 100px;
 background: #FDEEEE;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
+    }
+    .sect2{
+position: absolute;
+width: 350px;
+height: 550px;
+left: 1035px;
+top: 125px;
+
+background: #CDF6FF;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
+    }
+
+    .sect3{
+      position: absolute;
+width: 330px;
+height: 520px;
+left: 1045px;
+top: 140px;
+
+background: #ffffff;
 box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
 border-radius: 25px;
     }
@@ -58,7 +80,7 @@ border-radius: 25px;
 }
 .text2{
 
-position: absolute;
+  position: absolute;
 width: 151px;
 height: 34px;
 left: 700px;
@@ -70,7 +92,7 @@ border-radius: 25px;
 
 .text3{
 
-position: absolute;
+  position: absolute;
 width: 142px;
 height: 25px;
 left: 705px;
@@ -176,4 +198,24 @@ border-radius: 25px;
   font-size: 13px;
   left: 690px;
   top: 515px;
+}
+
+.photo{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 120px;
+  top: 200px;
+  background: #FDEEEE;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px; 
+}
+.photo2{
+  position: absolute;
+  width: 180px;
+  height: 34px;
+  left: 130px;
+  top: 210px;
+  background: #CDF6FF;
+  border-radius: 25px;  
 }
