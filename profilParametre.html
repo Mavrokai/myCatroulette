@@ -1,59 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="profilParametre.css">
-    <link rel="shortcut icon" href="./Images/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" type="Logo">
-    
-    <title>Paramétrage</title>
+    <link rel="shortcut icon" href="./Images/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" type="logo">
+    <title>Paramètre</title>
 </head>
 
-<body class="body">
-    <header class="profilRight">
-        <div class="borderIcon">
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <h2>My<span class="danger">Catroulette</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Centre de contrôle</h3>
+                </a>
+                <a href="profil.html">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Profil</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>Historique</h3>
+                </a>
+                <a href="./admin.html">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analytique</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Liste de vente</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Plaintes</h3>
+                </a>
+                <a href="./profilParametre.html" class="active">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Paramètre</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>Nouvelle conexion</h3>
+                </a>
+                <a href="./Login.html">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Déconexion</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <div class="new-users">
+                <h1>Paramètre</h1>
+                <div class="main">
+                
+                    <Div class="Userphoto">
+                        Votre image de profil
+                    </Div>
+                    <form action="userChanger">
+                        Nom complet
+                        <input type="text" name="Nom Complet" id="nomComplet">
+                        Nom d'utilisateur
+                        <input type="text" name="Nom d'utilisateur" id="nomUser">
+                        Email
+                        <input type="email" name="Email" id="email">
+                        Numéro de téléphone
+                        <input type="number" name="Numéro" id="Num">
+                        Bio
+                        <input type="text" name="Bio" id="Bio">
+                    </form>
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+
+            <!-- End of Recent Orders -->
+
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Salut !, <b>Maxime</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="Images/ChatVomi.png">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="./Images/ChatVomi.png">
+                    <h2>Maxime</h2>
+                    <p>Catdnapeur</p>
+                </div>
+            </div>
+
 
         </div>
-        <div>
-            <p class="msgBienvenue">Bienvenue</p>
-            <p class="user">Maxime</p>
-        </div>
 
-        <div>
-            <a href="./Login.html">
-                <img class="Logo" src="./Images/MEDIA_CRUELTY-FREEKITTY_150x@2x.webp" alt="Logo">
-            </a>
-        </div>
-    </header>
 
-    <section class="boxP">
-        <div class="I">
-            <div class="h1">Paramétrage du compte </div>
-            <div class="h1">Connexion et sécurité </div>
-            <div class="h1">Notifications </div>
-            <div class="h1">Interface </div>
-        </div>
+    </div>
 
-        <p class="T">Votre immage de profil</p>
-        <div class="selectionPP">
-            <img class="imageInsertion" src="./Images/selfie_8152401.png" alt="insertion photo">
-            <p class="textPP">Téléchargez <br> votre photo</p>
-            <div class="sepa"></div>
-            <div>
-            <form action="paraCompte">
-                Nom Complet <input type="text" name="nomComplet" id="nomComplet"><br>
-                Nom d'utilisateur <input type="nomUser" name="nomUser" id="nomUser">
-
-            </form>
-        </div>
-        </div>
-        <div class="boxS">
-            <div class="box"></div>
-        </div>
-    </section>
-
-    
+    <script src="index.js"></script>
 </body>
 
 </html>
