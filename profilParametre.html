@@ -97,28 +97,49 @@
             <div class="new-users">
                 <h1>Paramètre</h1>
                 <div class="main">
-                
+
                     <Div class="Userphoto">
                         Votre image de profil
-                    </Div>
-                    <form action="userChanger">
-                        Nom complet
-                        <input type="text" name="Nom Complet" id="nomComplet">
-                        Nom d'utilisateur
-                        <input type="text" name="Nom d'utilisateur" id="nomUser">
-                        Email
-                        <input type="email" name="Email" id="email">
-                        Numéro de téléphone
-                        <input type="number" name="Numéro" id="Num">
-                        Bio
-                        <input type="text" name="Bio" id="Bio">
-                    </form>
+                        <div class="userProfil">
+                            <input type="file" id="imageUpload" accept="image/*">
+                            <img src="#" id="preview" width="200" height="200">
+                            <button onclick="uploadImage()" id="Upload">Enregistrer</button>
+                        </div>
+                    </div><br>
+
+                    <div class="ligne"></div>
+
+                    <div>
+                        <form action="changeInfo" class="formR">
+                            <div class="NomC">
+                                Nom complet <br>
+                                <input type="text" name="Nom complet" id="nomComplet"
+                                    placeholder="  Veuillez saisir votre nom complet">
+                            </div><br>
+                            <div class="NomC">
+                                Nom d'utilisateur <br> <input type="text" name="nameUsers" id="nameUsers"
+                                    placeholder="  Veuillez saisir votre nom d'utilisateur">
+                            </div><br>
+                            <div class="NomC">
+                                Email <br> <input type="email" name="email" id="email"
+                                    placeholder="  Veuillez saisir votre adresse électronique">
+                            </div><br>
+                            <div class="NomC">
+                                Numéro de téléphone <br> <input type="number" name="numTel" id="numTel"
+                                    placeholder="  Veuillez saisir votre numéro de téléphone">
+                            </div> <br>
+                            <div class="NomC">
+                                Bio <br> <input type="text" name="bio" id="Bio"
+                                    placeholder="  Écrivez ici votre biographie, par exemple vos loisirs, vos intérêts, etc.">
+                            </div><br>
+                            <button type="submit" class="MJ">Mise à jour du profil</button> <button type="reset" class="MR">Reset</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <!-- End of New Users Section -->
+                <!-- End of New Users Section -->
 
 
-            <!-- End of Recent Orders -->
+                <!-- End of Recent Orders -->
 
         </main>
         <!-- End of Main Content -->

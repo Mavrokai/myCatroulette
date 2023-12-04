@@ -31,3 +31,22 @@ Orders.forEach(order => {
     tr.innerHTML = trContent;
     document.querySelector('table tbody').appendChild(tr);
 });
+
+
+function uploadImage() {
+    const fileInput = document.getElementById('imageUpload');
+    const preview = document.getElementById('preview');
+
+    fileInput.addEventListener('change', function() {
+        const file = fileInput.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(event) {
+            preview.src = event.target.result;
+        };
+
+        if (file) {
+            reader.readAsDataURL(file);
+        }
+    });
+}
