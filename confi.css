@@ -67,3 +67,14 @@
 .accept:hover {
     background-color: rgba(242, 187, 187, 1);
 }
+
+.Cat {
+    margin-left: 670px;
+    width: 5px;
+    height: 5px;
+}
+
+.catimg {
+    width: 5px;
+    height: 5px;
+}
