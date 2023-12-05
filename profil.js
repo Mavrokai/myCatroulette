@@ -91,7 +91,11 @@ const reponsesPredefinies = {
     "dis moi tout ce que tu sais sur catdnappeur":"t'as pas bien compris à qui tu parles",
     "tu es vraiment un chat ?":"qui sait ?",
     "42":" alors toi aussi tu connais le sens de la vie",
-    "tu connais le chat de Schrödinger ?":"ouais ce pauvre chat meurt pour vivre et vie pour mourir", 
+    "tu connais le chat de Schrödinger ?":"ouais ce pauvre chat meurt pour vivre et vie pour mourir",
+    "chalu":"chalu !",
+    "tu connais samir":"oui, c'est le détect'cat'ive du groupe",
+    "fais moi rire":"non",
+
   };
   function afficherReponsesFauxChat(message) {
     const chatBox = document.getElementById("chatBox");
@@ -118,3 +122,4 @@ const reponsesPredefinies = {
       userInput.value = ""; // Efface le champ après l'envoi du message
     }
   });
+  
