@@ -10,8 +10,6 @@ header {
   height: 85px;
   left: -5px;
   top: -2px;
-  cursor: pointer;
-  top: -10px;
 }
 
 body {
@@ -26,7 +24,7 @@ body {
 
 .Rat {
   all: unset;
-      cursor: pointer;
+  cursor: pointer;
   width: 100px;
   top: 550px;
   left: 125px;
@@ -38,7 +36,7 @@ body {
 
 .Pelote {
   all: unset;
-      cursor: pointer;
+  cursor: pointer;
   width: 100px;
   top: 550px;
   left: 300px;
@@ -50,7 +48,7 @@ body {
 
 .Lait {
   all: unset;
-      cursor: pointer;
+  cursor: pointer;
   width: 100px;
   top: 550px;
   left: 475px;
@@ -101,9 +99,9 @@ body {
 .text {
 
   position: absolute;
-  width: 142px;
-  height: 50px;
-  left: 1140px;
+  width: 300px;
+  height: 25px;
+  left: 1060px;
   top: 185px;
   background: #FFFFFF;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
@@ -114,9 +112,9 @@ body {
 
 .textage {
   position: absolute;
-  width: 142px;
+  width: 300px;
   height: 25px;
-  left: 1140px;
+  left: 1060px;
   top: 275px;
   background: #FFFFFF;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
@@ -128,9 +126,9 @@ body {
 
 .texto {
   position: absolute;
-  width: 142px;
+  width: 300px;
   height: 25px;
-  left: 1140px;
+  left: 1060px;
   top: 335px;
   background: #FFFFFF;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
@@ -141,7 +139,7 @@ body {
 
 .bio {
   position: absolute;
-  width: 310px;
+  width: 300px;
   height: 230px;
   left: 1055px;
   top: 405px;
@@ -153,7 +151,26 @@ body {
 
 .biographie {
   position: absolute;
-  left: 1070px;
+  text-align: center;
+  left: 1105px;
+  top: 395px;
+  font-size: 125%;
+}
+
+.Charlène {
+  position: absolute;
+  text-align: center;
+  left: 1075px;
+  top: 395px;
+  font-size: 125%;
+
+  
+}
+
+.Sébastien {
+  position: absolute;
+  text-align: center;
+  left: 1060px;
   top: 395px;
   font-size: 125%;
 }
@@ -214,7 +231,7 @@ section {
   width: 100%;
   max-width: 300px;
   height: 300px;
-  
+
   position: absolute;
   transition: all 0.5s;
 }
@@ -251,11 +268,13 @@ section {
   top: 45%;
   right: 2%;
 }
+
 .slider {
   width: 100%;
   max-width: 300px;
   height: 300px;
   position: relative;
-  overflow: hidden;  /* <===  */
+  overflow: hidden;
+  /* <===  */
   border-radius: 15px;
 }
