@@ -290,7 +290,7 @@ section {
     display: none;
   }
 
-  .btn {
+  .btn1 {
       display:inline-block;
       vertical-align:middle;
       text-align:center;
@@ -307,13 +307,13 @@ section {
       position: absolute;
       width: 300px;
       }
-
-      .btn:hover {
+      
+      .btn1:hover {
         background: linear-gradient(rgba(254, 238, 238, 1),rgba(254, 238, 238, 1));
         color: rgba(175, 223, 234, 1);
         border-color:rgba(175, 223, 234, 1) ;
       }
-      .btn:focus {
+      .btn1:focus {
         background: linear-gradient(rgba(175, 223, 234, 1), rgba(175, 223, 234, 1));
         color: rgba(254, 238, 238, 1)
       }
@@ -361,5 +361,5 @@ section {
 
       .lien {
         text-decoration:none;
-        color:rgba(240, 96, 116, 1) ;
+        color:rgba(240, 96, 116, 1);
       }

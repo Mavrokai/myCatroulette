@@ -270,3 +270,41 @@ border-radius: 4px 0px 0px 4px;
   top: 400px;
   border: solid 1px black;
 }
+.chat-box{
+  position: absolute;
+  left: 1050px;
+}
+.ecrire{
+  position: absolute;
+  width: 250px;
+  left: 12px;
+  top: 320px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 20px 5px  #AFDFEA;
+  background-color:  white ;
+  border: solid 1px grey ;
+  padding: 3px 3px 3px 3px;
+}
+.ecrire:hover{
+  border-radius: 4px;
+  box-shadow: 1px 1px 20px 5px  #F2BBBB;;
+  background-color:  white ;
+  border: solid 1px grey ;
+  padding: 3px 3px 3px 3px;
+}
+
+.ecrire:focus{
+color: white;
+
+  border-radius: 4px;
+  box-shadow: 1px 1px 20px 5px  #F2BBBB;;
+  background-color:  #AFDFEA ;
+  border: inset 1px grey ;
+  padding: 3px 3px 3px 3px;
+}
+.button{
+  position: absolute;
+  width: 10px;
+  top:320px;
+  left: 280px;
+}
