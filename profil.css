@@ -270,3 +270,27 @@ border-radius: 4px 0px 0px 4px;
   top: 400px;
   border: solid 1px black;
 }
+.chat-box{
+  position: absolute;
+  left: 1050px;
+}
+.ecrire{
+  position: absolute;
+  width: 250px;
+  left: 5px;
+  top: 320px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: rgba(128, 128, 128, 0.184) ;
+}
+.ecrire:hover{
+  background-color: rgba(168, 168, 168, 0.392);
+  width: 260px;
+  height: 30px;
+  border-radius: 10px 10px 10px 10px;
+}
+.button{
+  position: absolute;
+  width: 10px;
+  top:320px;
+  left: 280px;
+}
