@@ -326,4 +326,6 @@ color: white;
 #chatBox{
   position: absolute;
   top: -130px;
+  width: 300px;
+  text-align: center;
 }
