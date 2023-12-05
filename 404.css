@@ -6,6 +6,19 @@
 
 }
 
+    .audioimg{
+        position: absolute;
+        width: 250px;
+        height: 150px;
+        margin-top: 350px;
+        margin-left: 635px;
+    }
+
+    audio{
+        height: 1px;
+        width: 1px;
+    }
+
 body {
     font-size: 150%;
     box-sizing: border-box;
