@@ -12,6 +12,15 @@ header{
     cursor: pointer;
     top: -10px;
   }
+  .Retour {
+    width: 50px;
+    height: 48px;
+    margin-left: -750px;
+    margin-top: 25px;
+    cursor: pointer;
+  
+    position: absolute;
+  }
   body {
     text-align: center;
     margin: 0;
@@ -277,16 +286,30 @@ border-radius: 4px 0px 0px 4px;
 .ecrire{
   position: absolute;
   width: 250px;
-  left: 5px;
+  left: 12px;
   top: 320px;
-  border-radius: 4px 4px 4px 4px;
-  background-color: rgba(128, 128, 128, 0.184) ;
+  border-radius: 4px;
+  box-shadow: 1px 1px 20px 5px  #AFDFEA;
+  background-color:  white ;
+  border: solid 1px grey ;
+  padding: 3px 3px 3px 3px;
 }
 .ecrire:hover{
-  background-color: rgba(168, 168, 168, 0.392);
-  width: 260px;
-  height: 30px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 20px 5px  #F2BBBB;;
+  background-color:  white ;
+  border: solid 1px grey ;
+  padding: 3px 3px 3px 3px;
+}
+
+.ecrire:focus{
+color: white;
+
+  border-radius: 4px;
+  box-shadow: 1px 1px 20px 5px  #F2BBBB;;
+  background-color:  #AFDFEA ;
+  border: inset 1px grey ;
+  padding: 3px 3px 3px 3px;
 }
 .button{
   position: absolute;
