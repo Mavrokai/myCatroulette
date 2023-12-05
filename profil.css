@@ -317,3 +317,13 @@ color: white;
   top:320px;
   left: 280px;
 }
+
+#reponse{
+  top: 100px;
+
+}
+
+#chatBox{
+  position: absolute;
+  top: -130px;
+}
