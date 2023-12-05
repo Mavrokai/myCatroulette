@@ -221,32 +221,49 @@ aside .sidebar .message-count{
     font-size: 11px;
     border-radius: var(--border-radius-1);
 }
-main {
-    margin-top: 1.2rem;
+
+main{
+    margin-top: 1.4rem;
 }
 
+main .recent-orders{
+    margin-top: 1.3rem;
+}
 
+main .recent-orders h2{
+    margin-bottom: 0.8rem;
+}
 
-
-main .main{
+main .recent-orders table{
     background-color: var(--color-white);
+    width: 100%;
     padding: var(--card-padding);
-    border-radius: var(--card-border-radius);
-    margin-top: 1rem;
+    text-align: center;
     box-shadow: var(--box-shadow);
-    gap: 1.4rem;
-    cursor: default;
+    border-radius: var(--card-border-radius);
     transition: all 0.3s ease;
 }
 
-main .main:hover{
+main .recent-orders table:hover{
     box-shadow: none;
 }
 
-#userChanger {
-    border: solid 3px red;
+main table tbody td{
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-variant);
 }
 
+main table tbody tr:last-child td{
+    border: none;
+}
+
+main .recent-orders a{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
+}
 
 .right-section{
     margin-top: 1.4rem;
@@ -310,7 +327,7 @@ main .main:hover{
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
     box-shadow: var(--box-shadow);
-    cursor: default;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -352,7 +369,10 @@ main .main:hover{
         margin-top: 1.8rem;
     }
 
-    
+    main .analyse{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
 
     main .new-users .user-list .user{
         flex-basis: 40%;
@@ -495,232 +515,4 @@ main .main:hover{
     .right-section .nav button span{
         font-size: 2rem;
     }
-
-}
-
-.userProfil {
-    border: dashed 2px rgb(32, 32, 32);
-    border-radius: 18px;
-    width: 15%;
-    height: 10rem;
-    background-color: #EDF2F6;
-    cursor: default;
-}
-
-input[type="file"] {
-    color: transparent;
-}
-
-
-#imageUpload {
-    margin-top: 50px;
-    margin-left: 6px;
-    border-radius: 5px;
-    padding: 3px 3px 3px 3px;
-    cursor: pointer;
-    transition: ease 0.3s, color 0.3s;    
-}
-
-#preview {
-    position: relative;
-    margin-left: 10rem;
-    margin-top: -5.8rem;
-    border-radius: 10px;
-    width: 10rem;
-    height: 10rem;
-}
-
-
-#Upload {
-    position: absolute;
-    margin-left: 1.8rem;
-    margin-top: -4rem;
-    border: solid 1px black;
-    border-radius: 5px;
-    padding: 3px 3px 3px 3px;
-
-    cursor: pointer;
-    transition: ease 0.3s, color 0.3s;
-    box-shadow: 2px 1px 8px rgb(0, 0, 0);
-    
-}
-
-#Upload:hover {
-    color: white;
-    background: #AFDFEA;
-    text-shadow: #F2BBBB 2px;
-    box-shadow: 2px 1px 8px #F2BBBB;
-    transition: ease 0.3s, color 0.3s;
-}
-
-.ligne {
-    border: solid 1px rgb(43, 43, 43);
-}
-
-.formR {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20rem;
-}
-
-.NomC{
-    width: 500px;
-}
-
-#nomComplet {
-    height: 30px;
-    width: 300px;
-    border: solid 1px black;
-    flex: 1 300px;
-    flex-basis: auto;
-
-    border-radius: 10px;
-    padding: 3px 3px 3px 3px;
-    background-color: #AFDFEA;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.31);
-
-}
-
-#nomComplet:focus {
-    background-color: #F2BBBB;
-    box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.31);
-    border: inset 2px black;
-}
-
-#nameUsers {
-    height: 30px;
-    width: 300px;
-    border: solid 1px black;
-    flex: 2;
-    flex-basis: auto;
-    border-radius: 10px;
-    padding: 3px 3px 3px 3px;
-    background-color: #AFDFEA;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.31);
-}
-
-#nameUsers:focus {
-    background-color: #F2BBBB;
-    box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.31);
-    border: inset 2px black;
-}
-
-#email {
-    height: 30px;
-    width: 300px;
-    border: solid 1px black;
-    flex: 3;
-    flex-basis: auto;
-    border-radius: 10px;
-    padding: 3px 3px 3px 3px;
-    background-color: #AFDFEA;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.31);
-}
-
-#password {
-    height: 30px;
-    width: 300px;
-    border: solid 1px black;
-    flex: 3;
-    flex-basis: auto;
-    border-radius: 10px;
-    padding: 3px 3px 3px 3px;
-    background-color: #AFDFEA;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.31);
-}
-
-#password:focus {
-    background-color: #F2BBBB;
-    box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.31);
-    border: inset 2px black;
-}
-
-#email:focus {
-    background-color: #F2BBBB;
-    box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.31);
-    border: inset 2px black;
-}
-
-#numTel{
-    height: 30px;
-    width: 300px;
-    border: solid 1px black;
-    flex: 4;
-    flex-basis: auto;
-    border-radius: 10px;
-    padding: 3px 3px 3px 3px;
-    background-color: #AFDFEA;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.31);
-}
-
-#numTel:focus {
-    background-color: #F2BBBB;
-    box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.31);
-    border: inset 2px black;
-}
-
-#Bio {
-    height: 30px;
-    width: 300px;
-    border: solid 1px black;
-    flex: 5;
-    flex-basis: auto;
-    border-radius: 10px;
-    padding: 3px 3px 3px 3px;
-    background-color: #AFDFEA;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.31);
-}
-
-
-
-#Bio:focus {
-    background-color: #F2BBBB;
-    box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.31);
-    border: inset 2px black;
-}
-
-.MJ{
-    border: solid 1px black;
-    border-radius: 5px;
-    padding: 3px 3px 3px 3px;
-    width: 150px;
-    height: 25px;
-    text-align: center;
-    background-color: #F2BBBB;
-
-    cursor: pointer;
-    transition: ease 0.3s, color 0.3s;
-    box-shadow: 2px 1px 8px rgb(0, 0, 0);
-}
-
-.MJ:hover {
-    color: white;
-    background: #AFDFEA;
-    text-shadow: #F2BBBB 2px;
-    box-shadow: 2px 1px 8px #F2BBBB;
-    transition: ease 0.3s, color 0.3s;
-}
-
-.MR{
-    border: solid 1px black;
-    border-radius: 5px;
-    padding: 3px 3px 3px 3px;
-    width: 150px;
-    height: 25px;
-    text-align: center;
-    margin-top: -1.8rem;
-    margin-left: 10.9rem;
-    background-color: #F2BBBB;
-
-    cursor: pointer;
-    transition: ease 0.3s, color 0.3s;
-    box-shadow: 2px 1px 8px rgb(0, 0, 0);
-}
-
-.MR:hover {
-    color: white;
-    background: #AFDFEA;
-    text-shadow: #F2BBBB 2px;
-    box-shadow: 2px 1px 8px #F2BBBB;
-    transition: ease 0.3s, color 0.3s;
 }
