@@ -1,0 +1,261 @@
+header {
+  text-align: center;
+  background-color: rgba(251, 218, 218, 1);
+  border: solid 3px;
+}
+
+.Logo {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: -5px;
+  top: -2px;
+  cursor: pointer;
+  top: -10px;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  background-image: url(./Images/Fond\ transparent.png);
+  background-size: 120%;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+
+.Rat {
+  all: unset;
+      cursor: pointer;
+  width: 100px;
+  top: 550px;
+  left: 125px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px 20px 20px 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+
+.Pelote {
+  all: unset;
+      cursor: pointer;
+  width: 100px;
+  top: 550px;
+  left: 300px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px 20px 20px 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+
+.Lait {
+  all: unset;
+      cursor: pointer;
+  width: 100px;
+  top: 550px;
+  left: 475px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px 20px 20px 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+
+.sect1 {
+  position: absolute;
+  width: 380px;
+  height: 600px;
+  left: 1020px;
+  top: 100px;
+  background: #FDEEEE;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+.sect2 {
+  position: absolute;
+  width: 350px;
+  height: 550px;
+  left: 1035px;
+  top: 125px;
+
+  background: #CDF6FF;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+.sect3 {
+  position: absolute;
+  width: 330px;
+  height: 520px;
+  left: 1045px;
+  top: 140px;
+  background: #ffffff;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+.MyCatRoulette {
+  width: auto;
+}
+
+.text {
+
+  position: absolute;
+  width: 142px;
+  height: 50px;
+  left: 1140px;
+  top: 185px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  font-size: 125%;
+
+}
+
+.textage {
+  position: absolute;
+  width: 142px;
+  height: 25px;
+  left: 1140px;
+  top: 275px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  font-size: 125%;
+}
+
+
+
+.texto {
+  position: absolute;
+  width: 142px;
+  height: 25px;
+  left: 1140px;
+  top: 335px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  font-size: 125%;
+}
+
+
+.bio {
+  position: absolute;
+  width: 310px;
+  height: 230px;
+  left: 1055px;
+  top: 405px;
+  background: #ffffff;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  font-size: 125%;
+}
+
+.biographie {
+  position: absolute;
+  left: 1070px;
+  top: 395px;
+  font-size: 125%;
+}
+
+.p {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 80px;
+  border: solid 1px black;
+}
+
+.p2 {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 200px;
+  border: solid 1px black;
+}
+
+.p3 {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 320px;
+  border: solid 1px black;
+}
+
+.p4 {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 80px;
+  top: 400px;
+  border: solid 1px black;
+}
+
+section {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.slider {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  position: relative;
+  margin-top: -250px;
+  margin-left: -800px;
+  border: 5px solid #CDF6FF;
+  border-radius: 20px 20px 20px 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+  /* overflow: hidden; */
+}
+
+.slide {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+.slider {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;  /* <===  */
+  border-radius: 15px;
+}

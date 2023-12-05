@@ -86,28 +86,24 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 165px;
 }
 
 #moche {
     align-self: flex-start;
-    margin-left: -10px;
-    margin-top: 30px;
+    margin-left: -15px;
+    margin-top: 35px;
 
 }
 
 #louche {
     align-self: center;
-    margin-left: 40px;
+    margin-left: 450px;
 }
 
 #triste {
     align-self: flex-end;
-    margin-right: -285px;
-
-}
-
-#Bulle1 {
-    position: absolute;
-    margin-bottom: 400px;
+    margin-left: 375px;
+    
 
 }
