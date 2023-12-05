@@ -306,5 +306,15 @@ color: white;
   position: absolute;
   width: 10px;
   top:320px;
-  left: 280gipx;
+  left: 280px;
+}
+
+#reponse{
+  top: 100px;
+
+}
+
+#chatBox{
+  position: absolute;
+  top: -130px;
 }
