@@ -48,7 +48,7 @@ body {
     border: 3px solid #000000;
     background: rgb(178, 241, 247);
     margin: 56px;
-    margin-left: 37.5%;
+    margin-left: 40%;
     margin-top: -50px;
     padding: 4px 10px;
   }
@@ -74,7 +74,7 @@ body {
     position: relative;
     overflow: hidden;
     transition-duration: .3s;
-    margin-left: 550px;
+    margin-left: 699px;
     margin-top: 50px;
   }
   
