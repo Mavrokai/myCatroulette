@@ -311,12 +311,7 @@ color: white;
   border: inset 1px grey ;
   padding: 3px 3px 3px 3px;
 }
-.button{
-  position: absolute;
-  width: 10px;
-  top:320px;
-  left: 280px;
-}
+
 
 #reponse{
   top: 100px;
@@ -325,5 +320,8 @@ color: white;
 
 #chatBox{
   position: absolute;
+  width: 300px;
   top: -130px;
+  height: 420px;
+  overflow-y: scroll;
 }
