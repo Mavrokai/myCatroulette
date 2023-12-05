@@ -141,7 +141,7 @@ body {
   position: absolute;
   width: 300px;
   height: 230px;
-  left: 1055px;
+  left: 1060px;
   top: 405px;
   background: #ffffff;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
@@ -151,35 +151,17 @@ body {
 
 .biographie {
   position: absolute;
-  text-align: center;
-  left: 1105px;
+  text-align: justify;
+  left: 1107px;
   top: 395px;
-  font-size: 125%;
+  font-size: 100%;
 }
 
-.Charlène {
-  position: absolute;
-  text-align: center;
-  left: 1075px;
-  top: 395px;
-  font-size: 125%;
-
-  
-}
-
-.Sébastien {
-  position: absolute;
-  text-align: center;
-  left: 1060px;
-  top: 395px;
-  font-size: 125%;
-}
 
 .p {
   position: absolute;
   width: 100px;
   height: 80px;
-  left: 80px;
   border: solid 1px black;
 }
 
