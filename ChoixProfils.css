@@ -275,6 +275,5 @@ section {
   height: 300px;
   position: relative;
   overflow: hidden;
-  /* <===  */
   border-radius: 15px;
 }

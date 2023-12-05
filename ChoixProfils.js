@@ -5,6 +5,7 @@ const slides = document.querySelectorAll(".slide");
 const nextSlide = document.querySelector(".btn-next");
 const prevSlide = document.querySelector(".btn-prev");
 
+
 let curSlide = 0;
 let maxSlide = slides.length - 1;
 
