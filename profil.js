@@ -28,3 +28,5 @@ const fauxChatMessages = [
    
   // Appel de la fonction pour afficher les réponses précalculées
   afficherReponsesFauxChat();
+
+  
