@@ -1,0 +1,145 @@
+header{
+    text-align: center;
+    background-color: rgba(251, 218, 218, 1);
+    border: solid 3px;
+  }
+.Logo{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: -5px;
+    top: -2px;
+    cursor: pointer;
+    top: -10px;
+  }
+  body {
+    text-align: center;
+    margin: 0;
+    background-image: url(./Images/Fond\ transparent.png);
+    background-size: cover;
+    background-color: #FFFFFF;
+}
+    
+
+    .sect1{
+position: absolute;
+width: 380px;
+height: 600px;
+left: 1020px;
+top: 100px;
+background: #FDEEEE;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
+    }
+    .sect2{
+position: absolute;
+width: 350px;
+height: 550px;
+left: 1035px;
+top: 125px;
+
+background: #CDF6FF;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
+    }
+
+    .sect3{
+      position: absolute;
+width: 330px;
+height: 520px;
+left: 1045px;
+top: 140px;
+
+background: #ffffff;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+border-radius: 25px;
+    }
+  
+.MyCatRoulette{
+    width: auto;
+}
+
+.text{
+
+  position: absolute;
+width: 142px;
+height: 25px;
+left: 1140px;
+top: 196px;
+background: #FFFFFF;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+border-radius: 25px;
+
+}
+
+.textage{
+position: absolute;
+width: 142px;
+height: 25px;
+left: 1140px;
+top: 286px;
+background: #FFFFFF;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+border-radius: 25px;
+}
+
+
+
+.texto{
+  position: absolute;
+  width: 142px;
+  height: 25px;
+  left: 1140px;
+  top: 346px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px; 
+}
+
+
+.bio{
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  left: 1115px;
+  top: 415px;
+  background: #ffffff;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+}
+.biographie{
+  position: absolute;
+  font-size: 13px;
+  left: 1120px;
+  top: 415px;
+}
+
+.p{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 80px;
+  border: solid 1px black;
+}
+.p2{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 200px;
+  border: solid 1px black;
+}
+.p3{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 320px;
+  border: solid 1px black;
+}
+.p4{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 80px;
+  top: 400px;
+  border: solid 1px black;
+}
