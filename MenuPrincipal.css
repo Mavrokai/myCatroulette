@@ -331,3 +331,16 @@ section {
         color: white;
         text-shadow: #F2BBBB 2px;
       }
+
+      html { overflow-y: hidden;
+
+      }
+      html {
+          overflow-x: hidden;
+      }
+      main {
+          overflow-y: visible
+      }
+      main {
+          overflow-y: auto
+      }
