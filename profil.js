@@ -122,4 +122,3 @@ const reponsesPredefinies = {
       userInput.value = ""; // Efface le champ après l'envoi du message
     }
   });
-  
