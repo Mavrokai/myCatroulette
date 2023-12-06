@@ -121,4 +121,8 @@ const reponsesPredefinies = {
       afficherReponsesFauxChat(message);
       userInput.value = ""; // Efface le champ après l'envoi du message
     }
+<<<<<<< HEAD
   });
+=======
+  });
+>>>>>>> 45085b11375cf707e948821d33e5917b7e1ef3d9
