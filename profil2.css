@@ -10,11 +10,9 @@ header{
     left: -5px;
     top: -2px;
     cursor: pointer;
-    top: -10px;
   }
   .Retour {
     width: 50px;
-    height: 48px;
     margin-left: -750px;
     margin-top: 25px;
     cursor: pointer;

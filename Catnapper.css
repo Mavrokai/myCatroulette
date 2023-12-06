@@ -6,48 +6,46 @@
   font-style: normal;
 
 }
-.frame {
-    text-align: center;
-    width: 100%;
-    height: 80px;
-    background: #6a0606;
-    margin: -20px;
-    padding: 4px 25px;
-    border: 3px solid;
-    color: gold;
-    font-family: 'Island Moments', cursive;
+header {
+  text-align: center;
+  background-color: #6a0606;
+  border: solid 3px;
+  color: gold;
+  font-family: 'knewave', cursive;
     
 }
 
 #logo {
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    left: -5px;
-    top: -2px;
-    cursor: pointer;
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: -5px;
+  top: 10px;
   }
 
 
 
 .Retour {
-    width: 50px;
-    margin-left: 2px;
-    margin-top: 22px;
-    cursor: pointer;
+  position: absolute;
+  width: 50px;
+  margin-right: 1450px;
+  margin-top: 28px;
+  cursor: pointer;
 
-    position: relative;
+  position: relative;
 }
 
 #gif1 {
     position: absolute;
     margin-top: 40px;
-    margin-left: 170px;
+    margin-left: -570px;
     width: 15%;
     border-radius: 30px;
 }
 
 body {
+    text-align: center;
+    margin: 0;
     background-color: darkgrey;
     overflow: hidden;
     
@@ -68,7 +66,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: -40px;
+    margin-top: -50px;
   }
 
   #Col1 {
@@ -106,6 +104,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: -20px;
   }
 
   #ChatTerro {
@@ -120,7 +119,7 @@ body {
   #gif2 {
     width: 20%;
     height: 20%;
-    margin-bottom: -40px;
+    margin-top: -17px;
     margin-left: 35px;
     align-self: center;
     border-radius: 25px;
