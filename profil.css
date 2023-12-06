@@ -3,6 +3,7 @@ header{
     background-color: rgba(251, 218, 218, 1);
     border: solid 3px;
   }
+
 .Logo{
     position: absolute;
     width: 85px;
@@ -10,22 +11,23 @@ header{
     left: -5px;
     top: -2px;
     cursor: pointer;
-    top: -10px;
   }
+
   .Retour {
     width: 50px;
-    height: 48px;
     margin-left: -750px;
     margin-top: 25px;
     cursor: pointer;
   
     position: absolute;
   }
+
   body {
     text-align: center;
     margin: 0;
     background-image: url(./Images/MicrosoftTeams-image\ \(2\).png);
-    background-size: cover;}
+    background-size: cover;
+  }
 
     .sect1{
 position: absolute;
