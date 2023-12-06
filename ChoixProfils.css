@@ -22,7 +22,7 @@ body {
 }
 
 
-.Rat {
+#Rat {
   all: unset;
   cursor: pointer;
   width: 100px;
@@ -34,7 +34,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
-.Pelote {
+#Pelote {
   all: unset;
   cursor: pointer;
   width: 100px;
@@ -46,7 +46,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
-.Lait {
+#Lait {
   all: unset;
   cursor: pointer;
   width: 100px;
