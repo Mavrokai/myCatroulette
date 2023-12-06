@@ -91,3 +91,19 @@ function func() {
 }
 
 
+"use strict";
+
+const peloteButton = document.getElementById('Pelote');
+
+function buttonDown() {
+  peloteButton.classList.add('clicked');
+}
+
+function buttonUp() {
+  peloteButton.classList.remove('clicked');
+}
+
+// Vous pouvez également ajouter un écouteur d'événements 'mouseleave' pour gérer le cas où le clic est annulé
+peloteButton.addEventListener("mouseleave", function () {
+  peloteButton.classList.remove('clicked');
+});
