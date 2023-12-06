@@ -205,8 +205,9 @@ border-radius: 25px;
 }
 .biographie{
   position: absolute;
-  font-size: 13px;
-  left: 690px;
+  text-align: justify;
+  font-size: 12px;
+  left: 695px;
   top: 515px;
 }
 
@@ -324,4 +325,9 @@ color: white;
   top: -130px;
   height: 420px;
   overflow-y: scroll;
+<<<<<<< HEAD
+=======
+  width: 300px;
+  text-align: center;
+>>>>>>> 7f4391170423df993e14abc9e7a003859415e380
 }
