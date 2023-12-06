@@ -41,7 +41,7 @@ function updateButtonLink(position) {
       monBouton.setAttribute('onclick', 'window.location.href="profil3.html";');
       break;
     default:
-      
+
       break;
   }
 }
@@ -59,7 +59,7 @@ nextSlide.addEventListener("click", function () {
     curSlide++;
   }
 
-  
+
   updateContentVisibility();
 });
 
@@ -71,7 +71,7 @@ prevSlide.addEventListener("click", function () {
     curSlide--;
   }
 
-  
+
   updateContentVisibility();
 });
 
@@ -95,11 +95,11 @@ function func() {
 
 const peloteButton = document.getElementById('Pelote');
 
-function buttonDown() {
+function pelotebuttonDown() {
   peloteButton.classList.add('clicked');
 }
 
-function buttonUp() {
+function pelotebuttonUp() {
   peloteButton.classList.remove('clicked');
 }
 
@@ -107,3 +107,38 @@ function buttonUp() {
 peloteButton.addEventListener("mouseleave", function () {
   peloteButton.classList.remove('clicked');
 });
+
+"use strict";
+
+const laitButton = document.getElementById('Lait');
+
+function laitbuttonDown() {
+  laitButton.classList.add('clicked');
+}
+
+function laitbuttonUp() {
+  laitButton.classList.remove('clicked');
+}
+
+// Vous pouvez également ajouter un écouteur d'événements 'mouseleave' pour gérer le cas où le clic est annulé
+laitButton.addEventListener("mouseleave", function () {
+  laitButton.classList.remove('clicked');
+});
+
+"use strict";
+
+const ratButton = document.getElementById('Rat');
+
+function ratbuttonDown() {
+  ratButton.classList.add('clicked');
+}
+
+function ratbuttonUp() {
+  ratButton.classList.remove('clicked');
+}
+
+// Vous pouvez également ajouter un écouteur d'événements 'mouseleave' pour gérer le cas où le clic est annulé
+ratButton.addEventListener("mouseleave", function () {
+  ratButton.classList.remove('clicked');
+});
+
