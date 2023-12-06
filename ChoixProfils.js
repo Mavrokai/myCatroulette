@@ -41,17 +41,17 @@ function updateButtonLink(position) {
       monBouton.setAttribute('onclick', 'window.location.href="profil3.html";');
       break;
     default:
-      // Gérer d'autres cas si nécessaire
+      
       break;
   }
 }
 
-// Initialisation
+
 slides.forEach((slide, indx) => {
   slide.style.transform = `translateX(${indx * 100}%)`;
 });
 
-// Événement pour la diapositive suivante
+
 nextSlide.addEventListener("click", function () {
   if (curSlide === maxSlide) {
     curSlide = 0;
@@ -59,11 +59,11 @@ nextSlide.addEventListener("click", function () {
     curSlide++;
   }
 
-  // Mettez à jour la visibilité des contenus en fonction de la diapositive actuelle
+  
   updateContentVisibility();
 });
 
-// Événement pour la diapositive précédente
+
 prevSlide.addEventListener("click", function () {
   if (curSlide === 0) {
     curSlide = maxSlide;
@@ -71,11 +71,11 @@ prevSlide.addEventListener("click", function () {
     curSlide--;
   }
 
-  // Mettez à jour la visibilité des contenus en fonction de la diapositive actuelle
+  
   updateContentVisibility();
 });
 
-// Mettez à jour la visibilité des contenus au chargement initial
+
 updateContentVisibility();
 
 
