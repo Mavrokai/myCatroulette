@@ -32,23 +32,23 @@ deplacey = 0;
 
 //head of snake
 serpent = new Image();
-serpent.src = "Images/Serpent/headd.png";
+serpent.src = "image/headd.png";
 corps = new Image();
-corps.src = "Images/Serpent/body.png";
+corps.src = "image/body.png";
 back = new Image();
-back.src = "Images/Interface/back.png";
+back.src = "image/back.png";
 
 //les fruits
 f1 = new Image();
-f1.src = "Images/Fruits/bananes.png";
+f1.src = "image/bananes.png";
 f2 = new Image();
-f2.src = "Images/Fruits/orange.png";
+f2.src = "image/orange.png";
 f3 = new Image();
-f3.src = "Images/Fruits/lemon.png";
+f3.src = "image/lemon.png";
 f4 = new Image();
-f4.src = "Images/Fruits/avoca.png";
+f4.src = "image/avoca.png";
 f5 = new Image();
-f5.src = "Images/Fruits/mango.png";
+f5.src = "image/mango.png";
 
 //A  présent  pour  plus  de  logique  ne  laissons  pas  le  serpent  faire  un  demi-tour  sur  lui-même la variable tour
 tour = 0;
@@ -332,27 +332,27 @@ scoremaj.innerHTML = s;
 
 function randfruits() {
 if (fruitsuivant == 0) {
-    f1.src = "Images/Serpent/headd.png";
+    f1.src = "image/headd.png";
 
     fruitsuivant++;
 }
 if (fruitsuivant == 1) {
-    f1.src = "Images/Serpent/headb.png";
+    f1.src = "image/headb.png";
 
     fruitsuivant++;
 }
 if (fruitsuivant == 2) {
-    f1.src = "Images/Serpent/headh.png";
+    f1.src = "image/headh.png";
 
     fruitsuivant++;
 }
 if (fruitsuivant == 3) {
-    f1.src = "Images/Serpent/headg.png";
+    f1.src = "image/headg.png";
 
     fruitsuivant++;
 } else {
     fruitsuivant = 0;
-    f1.src = "Images/Serpent/headd.png";
+    f1.src = "image/headd.png";
 
 
 }
@@ -391,7 +391,7 @@ switch (evenement.keyCode) {
         //if(tour==39){break;}
         deplacex = -1;
         deplacey = 0;
-        serpent.src = "Images/Serpent/headg.png";
+        serpent.src = "image/headg.png";
         tour = evenement.keyCode;
         break;
 
@@ -399,7 +399,7 @@ switch (evenement.keyCode) {
         if (tour == 40) { break; }
         deplacex = 0;
         deplacey = -1;
-        serpent.src = "Images/Serpent/headh.png";
+        serpent.src = "image/headh.png";
         tour = evenement.keyCode;
         break;
 
@@ -407,7 +407,7 @@ switch (evenement.keyCode) {
         //if(tour==37){break;}
         deplacex = 1;
         deplacey = 0;
-        serpent.src = "Images/Serpent/headd.png";
+        serpent.src = "image/headd.png";
         tour = evenement.keyCode;
         break;
 
@@ -415,7 +415,7 @@ switch (evenement.keyCode) {
         if (tour == 38) { break; }
         deplacex = 0;
         deplacey = 1;
-        serpent.src = "Images/Serpent/headb.png";
+        serpent.src = "image/headb.png";
         tour = evenement.keyCode;
         break;
 
@@ -432,23 +432,23 @@ switch (evenement.keyCode) {
         deplacey = 0;
         //head of snake
         serpent = new Image();
-        serpent.src = "Images/Serpent/headd.png";
+        serpent.src = "image/headd.png";
         corps = new Image();
-        corps.src = "Images/Serpent/body.png";
+        corps.src = "image/body.png";
         back = new Image();
-        back.src = "Images/Interface/back.png";
+        back.src = "image/back.png";
 
         //les fruits
         f1 = new Image();
-        f1.src = "Images/Fruits/bananes.png";
+        f1.src = "image/bananes.png";
         f2 = new Image();
-        f2.src = "Images/Fruits/orange.png";
+        f2.src = "image/orange.png";
         f3 = new Image();
-        f3.src = "Images/Fruits/lemon.png";
+        f3.src = "image/lemon.png";
         f4 = new Image();
-        f4.src = "Images/Fruits/avoca.png";
+        f4.src = "image/avoca.png";
         f5 = new Image();
-        f5.src = "Images/Fruits/mango.png";
+        f5.src = "image/mango.png";
         //A  présent  pour  plus  de  logique  ne  laissons  pas  le  serpent  faire  un  demi-tour  sur  lui-même la variable tour
         tour = 0;
         //depalcei
