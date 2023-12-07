@@ -103,7 +103,7 @@ function pelotebuttonUp() {
   peloteButton.classList.remove('clicked');
 }
 
-// Vous pouvez également ajouter un écouteur d'événements 'mouseleave' pour gérer le cas où le clic est annulé
+
 peloteButton.addEventListener("mouseleave", function () {
   peloteButton.classList.remove('clicked');
 });
@@ -120,7 +120,7 @@ function laitbuttonUp() {
   laitButton.classList.remove('clicked');
 }
 
-// Vous pouvez également ajouter un écouteur d'événements 'mouseleave' pour gérer le cas où le clic est annulé
+
 laitButton.addEventListener("mouseleave", function () {
   laitButton.classList.remove('clicked');
 });
@@ -137,7 +137,7 @@ function ratbuttonUp() {
   ratButton.classList.remove('clicked');
 }
 
-// Vous pouvez également ajouter un écouteur d'événements 'mouseleave' pour gérer le cas où le clic est annulé
+
 ratButton.addEventListener("mouseleave", function () {
   ratButton.classList.remove('clicked');
 });

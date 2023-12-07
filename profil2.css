@@ -10,11 +10,9 @@ header{
     left: -5px;
     top: -2px;
     cursor: pointer;
-    top: -10px;
   }
   .Retour {
     width: 50px;
-    height: 48px;
     margin-left: -750px;
     margin-top: 25px;
     cursor: pointer;
@@ -366,11 +364,12 @@ border-radius: 23.5px;
     width: 200px;
     height: 30px;
     left: 1100px;
-    top: 200px;
+    top: 205px;
     background: #FFFFFF;
     border-radius: 4px;
     
 }
+<<<<<<< HEAD
 
 .rectanglecou{
   position: absolute;
@@ -391,3 +390,15 @@ border-radius: 23.5px;
     bottom: 42px;
     border: solid 1px black;
   }
+=======
+.chat2{
+position: absolute;
+width: 34px;
+height: 34px;
+left: 1075px;
+top: 202px;
+background: url(Images/Charlos.png);
+border-radius: 17px;
+
+}
+>>>>>>> 405e6e309a74ffa9fbfb5b3e199b43f604a13d44
