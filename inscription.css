@@ -16,9 +16,8 @@ header {
 
 .Retour {
   width: 50px;
-  height: 48px;
   margin-right: 1450px;
-  margin-top: 10px;
+  margin-top: 5px;
   cursor: pointer;
   position: relative;
 }

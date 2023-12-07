@@ -1,57 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
-  <title>Jeu de Chat</title>
-  <style>
-    #gameContainer {
-      width: 400px;
-      height: 400px;
-      border: 1px solid #000;
-      position: relative;
-      overflow: hidden;
-    }
-    .cat {
-      width: 50px;
-      height: 50px;
-      position: absolute;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <!--Ajout du Css-->
+    <link rel="stylesheet" href="./jeu.css" />
+
+    <title>Snake Game </title>
 </head>
+
 <body>
-  <h1>Jeu de Chat</h1>
-  <div id="gameContainer">
-    <img class="cat" src="./image/pixilart-drawing.png" alt="Chat" style="left: 0; top: 0;">
-  </div>
-  <audio id="catSound">
-    <source src="./son/Nounours.mp3" type="audio/mp3">
-  </audio>
+    <!--Ajout du fichier Son-->
+    <audio id="colis" src="Son/score.ogg"></audio>
 
-  <script>
-    const cat = document.querySelector('.cat');
-    let posX = 0;
-    let posY = 0;
-    const catSound = document.getElementById('catSound');
-    document.addEventListener('keydown', (event) => {
-      const step = 10;
-      if (event.code === 'ArrowRight') {
-        posX += step;
-        cat.style.left = posX + 'px';
-      } else if (event.code === 'ArrowLeft') {
-        posX -= step;
-        cat.style.left = posX + 'px';
-      } else if (event.code === 'ArrowUp') {
-        posY -= step;
-        cat.style.top = posY + 'px';
-      } else if (event.code === 'ArrowDown') {
-        posY += step;
-        cat.style.top = posY + 'px';
-      }
-      else if (event.code === 'KeyM') {
-        catSound.play()
-    }
-    } 
-    );
+    <div id="b">
+        <img src="./image/sp.png" alt="Banniere Snake" width="396" height="72" />
+    </div>
+    <span id="valeurTime"><img src="./image/table.png" alt="Tableau de Bord pour Score" width="180" height="330" class="arrondie"/></span>
+    <span id="score">SCORE :</span>
+    <span id="valeurscore">0</span>
+    <span id="mangocounter">0</span>
+    <span id="mango"><img src="./image/mango.png" alt="Fruit mango" width="30" height="30"/> </span>
+    <span id="avocacounter">0</span>
+    <span id="avoca"><img src="./image/avoca.png" alt="Fruit avoca" width="30" height="30"/> </span>
+    <span id="bananescounter">0</span>
+    <span id="bananes"><img src="./image/lemon.png" alt="Fruit bananes" width="30" height="30"/> </span>
+    <span id="orangecounter">0</span>
+    <span id="orange"><img src="./image/orange.png" alt="Fruit orange" width="30" height="30"/> </span>
+    <span id="lemoncounter">0</span>
+    <span id="lemon"><img src="./image/passion.png" alt="Fruit lemon" width="30" height="30"/> </span>
 
-  </script>
+
+    <canvas id="jardin" width="525" height="525" style="background:url(../Images/Interface/back.png);">DESOLE VOTRE NAVIGATEION OU SA VERSION NE PREND PAS EN CHARGE LA BALISE CANVAS</canvas>
+
+    <script type="text/javascript" src="./jeu.js">
+    </script>
+    <div id="pauserestart">
+        <img src="./image/indique.png" alt="PAUSE P RESTART R" width="525" height="25" />
+    </div>
 </body>
+
 </html>
