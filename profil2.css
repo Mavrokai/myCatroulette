@@ -369,7 +369,6 @@ border-radius: 23.5px;
     border-radius: 4px;
     
 }
-<<<<<<< HEAD
 
 .rectanglecou{
   position: absolute;
@@ -390,15 +389,3 @@ border-radius: 23.5px;
     bottom: 42px;
     border: solid 1px black;
   }
-=======
-.chat2{
-position: absolute;
-width: 34px;
-height: 34px;
-left: 1075px;
-top: 202px;
-background: url(Images/Charlos.png);
-border-radius: 17px;
-
-}
->>>>>>> 405e6e309a74ffa9fbfb5b3e199b43f604a13d44
