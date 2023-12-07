@@ -180,7 +180,7 @@
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8WeZJIrUIldLDe9xtV8lPczpA8m14iY8gyw&usqp=CAU">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8WeZJIrUIldLDe9xtV8lPczpA8m14iY8gyw&usqp=CAUµ">
                     </div>
                 </div>
 
