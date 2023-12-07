@@ -90,6 +90,14 @@ function func() {
   audio.play();
 }
 
+var audio2 = new Audio("./jeu/son/Diarrhée.mp3");
+
+
+function func2() {
+  console.log(audio2);
+  audio2.play();
+}
+
 
 "use strict";
 

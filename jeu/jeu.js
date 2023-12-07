@@ -32,11 +32,11 @@ deplacey = 0;
 
 //head of snake
 serpent = new Image();
-serpent.src = "image/headd.png";
+serpent.src = "image/TêteChatD.png";
 corps = new Image();
-corps.src = "image/body.png";
+corps.src = "image/CorpsChat.png";
 back = new Image();
-back.src = "image/back.png";
+back.src = "image/back.PNG";
 
 //les fruits
 f1 = new Image();
@@ -128,8 +128,10 @@ contexte.drawImage(back, 0, 0);
 
 //le serpent et son corps
 for (var i = 0; i < trace.length; i++) {
+    var nouvelleLargeur = 40; // Choisissez la nouvelle largeur souhaitée
+    var nouvelleHauteur = 40;
     //contexte.fillRect(trace[i].snakeheadx,trace[i].snakeheady,largeur,hauteur);
-    contexte.drawImage(corps, trace[i].snakeheadx, trace[i].snakeheady);
+    contexte.drawImage(corps, trace[i].snakeheadx, trace[i].snakeheady, nouvelleLargeur, nouvelleHauteur);
     //if(trace[i].snakeheadx==snakeheadx && trace[i].snakeheady==snakeheady) {
 
     //    tailleTrace = 3;
@@ -137,7 +139,7 @@ for (var i = 0; i < trace.length; i++) {
 
 }
 
-contexte.drawImage(serpent, snakeheadx, snakeheady);
+contexte.drawImage(serpent, snakeheadx, snakeheady, nouvelleLargeur, nouvelleHauteur);
 //contexte.drawImage(serpent,snakeheadx-25, snakeheady-25);
 //push() ajoute un ou plusieurs éléments à la fin d'un tableau et retourne la nouvelle taille du tableau.
 trace.push({ snakeheadx: snakeheadx, snakeheady: snakeheady });
@@ -164,6 +166,8 @@ if (trace.length > 3) {
 if (fruitx == snakeheadx && fruity == snakeheady) {
     document.getElementById('colis').play();
     energie++;
+
+
     if (fruitsuivant == 0) {
         banane++;
         bmaj.innerHTML = banane;
@@ -332,27 +336,27 @@ scoremaj.innerHTML = s;
 
 function randfruits() {
 if (fruitsuivant == 0) {
-    f1.src = "image/headd.png";
+    f1.src = "image/TêteChatD.png";
 
     fruitsuivant++;
 }
 if (fruitsuivant == 1) {
-    f1.src = "image/headb.png";
+    f1.src = "image/TêteChatB.png";
 
     fruitsuivant++;
 }
 if (fruitsuivant == 2) {
-    f1.src = "image/headh.png";
+    f1.src = "image/TêteChatH.png";
 
     fruitsuivant++;
 }
 if (fruitsuivant == 3) {
-    f1.src = "image/headg.png";
+    f1.src = "image/TêteChatG.png";
 
     fruitsuivant++;
 } else {
     fruitsuivant = 0;
-    f1.src = "image/headd.png";
+    f1.src = "image/TêteChatD.png";
 
 
 }
@@ -391,7 +395,7 @@ switch (evenement.keyCode) {
         //if(tour==39){break;}
         deplacex = -1;
         deplacey = 0;
-        serpent.src = "image/headg.png";
+        serpent.src = "image/TêteChatG.png";
         tour = evenement.keyCode;
         break;
 
@@ -399,7 +403,7 @@ switch (evenement.keyCode) {
         if (tour == 40) { break; }
         deplacex = 0;
         deplacey = -1;
-        serpent.src = "image/headh.png";
+        serpent.src = "image/TêteChatH.png";
         tour = evenement.keyCode;
         break;
 
@@ -407,7 +411,7 @@ switch (evenement.keyCode) {
         //if(tour==37){break;}
         deplacex = 1;
         deplacey = 0;
-        serpent.src = "image/headd.png";
+        serpent.src = "image/TêteChatD.png";
         tour = evenement.keyCode;
         break;
 
@@ -415,7 +419,7 @@ switch (evenement.keyCode) {
         if (tour == 38) { break; }
         deplacex = 0;
         deplacey = 1;
-        serpent.src = "image/headb.png";
+        serpent.src = "image/TêteChatB.png";
         tour = evenement.keyCode;
         break;
 
@@ -432,9 +436,9 @@ switch (evenement.keyCode) {
         deplacey = 0;
         //head of snake
         serpent = new Image();
-        serpent.src = "image/headd.png";
+        serpent.src = "image/TêteChatD.png";
         corps = new Image();
-        corps.src = "image/body.png";
+        corps.src = "image/CorpsChat.png";
         back = new Image();
         back.src = "image/back.png";
 
