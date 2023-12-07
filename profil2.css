@@ -371,3 +371,23 @@ border-radius: 23.5px;
     border-radius: 4px;
     
 }
+
+.rectanglecou{
+  position: absolute;
+  width: 450px;
+  height: 100px;
+  left: 30px;
+  top: 610px;
+  background: #FDEEEE;
+  box-shadow: 3px 3px 3px 3px #AFDFEA;
+  border-radius: 25px;
+  }
+
+  .photon {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    left: 80px;
+    bottom: 42px;
+    border: solid 1px black;
+  }
