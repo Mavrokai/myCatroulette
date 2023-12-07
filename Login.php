@@ -27,7 +27,7 @@
         <img src="./Images/LoginPicture.png" alt="chatMignon" class="catLogin">
 
 
-        <form action="./MenuPrincipal.html" class="Formulaire">
+        <form method="post" action="traitement_connexion.php" class="Formulaire">
             <div>
                 <h2 class="minititleLogin">LOGIN</h2>
                 <img src="./Images/MicrosoftTeams-image (3).png" alt="pelote" class="peloteLogin">
@@ -52,7 +52,7 @@
             </a>
             <button type="submit" class="loginButton">Se Connecter</button><br>
 
-            <a href="./inscription.html">
+            <a href="./inscription.php">
                 <button type="button" class="inscriButton">Inscription</button><br>
             </a>
             <a href="./confi.html">
