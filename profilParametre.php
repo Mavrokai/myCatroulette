@@ -108,7 +108,6 @@
                         <div class="userProfil">
                             
                             <input type="file" method="get" name="avatar" id="imageUpload" accept="image/*">
-                           
                             <img src="#" id="preview" width="200" height="200">
                             <button onclick="uploadImage()" id="Upload">Enregistrer</button>
                         
@@ -117,20 +116,20 @@
                     <div class="ligne"></div>
 
                     <div>
-                        <form action="./MenuPrincipal.html" class="formR">
+                        <form method="post" action="./modifier.php" class="formR">
                             
 
                             <div class="NomC">
                                 Nom complet <br>
-                                <input type="text" name="Nom complet" id="nomComplet"
+                                <input type="text" name="nom" id="nomComplet"
                                     placeholder="  Veuillez saisir votre nom complet">
                             </div><br>
                             <div class="NomC">
-                                Nom d'utilisateur <br> <input type="text" name="nameUsers" id="nameUsers"
+                                Nom d'utilisateur <br> <input type="text" name="pseudo" id="nameUsers"
                                     placeholder="  Veuillez saisir votre nom d'utilisateur">
                             </div><br>
                             <div class="NomC">
-                                Email <br> <input type="email" name="email" id="email"
+                                Email <br> <input type="email" name="mail" id="email"
                                     placeholder="  Veuillez saisir votre adresse électronique">
                             </div><br>
                             <div class="password">
