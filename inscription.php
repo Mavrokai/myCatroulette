@@ -18,8 +18,8 @@
         <h1>My Catroulette</h1>
         </p>
     </header>
-    <form action="./Login.html">
-        <a href="./Login.html">
+    <form method='post' action="./traitement_inscription.php">
+        <a href="./Login.php">
             <img src="./Images/retour-removebg-preview.png" alt="retour" class="Retour">
         </a>
         <div class="frame">

@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -45,7 +50,7 @@
                     </span>
                     <h3>Historique</h3>
                 </a>
-                <a href="./admin.html">
+                <a href="./admin.php">
                     <span class="material-icons-sharp">
                         insights
                     </span>
@@ -58,7 +63,7 @@
                     <h3>Tickets</h3>
                     <span class="message-count">27</span>
                 </a>
-                <a href="./vente.html">
+                <a href="./vente.php">
                     <span class="material-icons-sharp">
                         inventory
                     </span>
@@ -70,7 +75,7 @@
                     </span>
                     <h3>Plaintes</h3>
                 </a>
-                <a href="./profilParametre.html" class="active">
+                <a href="./profilParametre.php" class="active">
                     <span class="material-icons-sharp">
                         settings
                     </span>
@@ -82,7 +87,7 @@
                     </span>
                     <h3>Nouvelle conexion</h3>
                 </a>
-                <a href="./Login.html">
+                <a href="./Login.php">
                     <span class="material-icons-sharp">
                         logout
                     </span>
@@ -101,27 +106,30 @@
                     <Div class="Userphoto">
                         Votre image de profil
                         <div class="userProfil">
-                            <input type="file" id="imageUpload" accept="image/*">
+                            
+                            <input type="file" method="get" name="avatar" id="imageUpload" accept="image/*">
                             <img src="#" id="preview" width="200" height="200">
                             <button onclick="uploadImage()" id="Upload">Enregistrer</button>
+                        
                         </div>
                     </div><br>
-
                     <div class="ligne"></div>
 
                     <div>
-                        <form action="./MenuPrincipal.html" class="formR">
+                        <form method="post" action="./modifier.php" class="formR">
+                            
+
                             <div class="NomC">
                                 Nom complet <br>
-                                <input type="text" name="Nom complet" id="nomComplet"
+                                <input type="text" name="nom" id="nomComplet"
                                     placeholder="  Veuillez saisir votre nom complet">
                             </div><br>
                             <div class="NomC">
-                                Nom d'utilisateur <br> <input type="text" name="nameUsers" id="nameUsers"
+                                Nom d'utilisateur <br> <input type="text" name="pseudo" id="nameUsers"
                                     placeholder="  Veuillez saisir votre nom d'utilisateur">
                             </div><br>
                             <div class="NomC">
-                                Email <br> <input type="email" name="email" id="email"
+                                Email <br> <input type="email" name="mail" id="email"
                                     placeholder="  Veuillez saisir votre adresse électronique">
                             </div><br>
                             <div class="password">
@@ -167,11 +175,11 @@
 
                 <div class="profile">
                     <div class="info">
-                        <p>Salut !, <b>Maxime</b></p>
+                        <p>Salut !, <b><?php echo $_SESSION['Pseudo'] ?></b></p>
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="Images/ChatVomi.png">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8WeZJIrUIldLDe9xtV8lPczpA8m14iY8gyw&usqp=CAUµ">
                     </div>
                 </div>
 
@@ -180,8 +188,8 @@
 
             <div class="user-profile">
                 <div class="logo">
-                    <img src="./Images/ChatVomi.png">
-                    <h2>Maxime</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8WeZJIrUIldLDe9xtV8lPczpA8m14iY8gyw&usqp=CAU" alt="" srcset="">
+                    <h2><?php echo $_SESSION['Pseudo'] ?></h2>
                     <p>Catdnapeur</p>
                 </div>
             </div>

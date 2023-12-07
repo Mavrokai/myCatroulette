@@ -36,3 +36,5 @@ prevSlide.addEventListener("click", function () {
     slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
   });
 });
+
+

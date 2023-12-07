@@ -379,3 +379,137 @@ background: url(Images/Charlos.png);
 border-radius: 17px;
 
 }
+
+.rectanglecou{
+  position: absolute;
+  width: 450px;
+  height: 100px;
+  left: 30px;
+  top: 610px;
+  background: #FDEEEE;
+  box-shadow: 3px 3px 3px 3px #AFDFEA;
+  border-radius: 25px;
+  }
+
+  .photon {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 80px;
+    bottom: 40px;
+    border: solid 1px black;
+    border-radius: 25px;
+  }
+
+  .open-btn {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* Stylez et fixez le bouton sur la page */
+  .open-button {
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    border:solid 2px black;
+    font-size: 15px;
+    bottom: 34px;
+    left: 72px;
+  }
+
+  /* Positionnez la forme Popup */
+  .login-popup {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  /* Masquez la forme Popup */
+  .form-popup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-45%, 5%);
+    border: 2px solid #666;
+    z-index: 9;
+  }
+  /* Styles pour le conteneur de la forme */
+  .form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  /* Largeur complète pour les champs de saisie */
+  .form-container input[type="text"],
+  .form-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #eee;
+  }
+  /* Quand les entrées sont concentrées, faites quelque chose */
+  .form-container input[type="text"]:focus,
+  .form-container input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  /* Stylez le bouton de connexion */
+  .form-container .btn {
+    background-color: #8ebf42;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  /* Stylez le bouton pour annuler */
+  .form-container .cancel {
+    background-color: #cc0000;
+  }
+  /* Planez les effets pour les boutons */
+  .form-container .btn:hover,
+  .open-button:hover {
+    opacity: 1;
+  }
+
+
+  .newfriend {
+    display: none;
+      position: fixed;
+      width: 275px;
+      height: 40px;
+      left: 1070px;
+      top: 250px;
+      background: #AFDFEA;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 9px 0px 0px 9px;
+      
+      }
+
+      .s3{
+        display: none;
+      position: fixed;
+      width: 200px;
+      height: 30px;
+      left: 1100px;
+      top: 255px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      
+      }
+      
+      .chat3{
+      display: none;
+      position: fixed;
+      width: 34px;
+      height: 34px;
+      left: 1075px;
+      top: 252px;
+      background: url(1000_F_572479992_jhEEDSz8bVMyp3bYLUsZdIqk0LrFgCw4);
+      border-radius: 23.5px;
+  }

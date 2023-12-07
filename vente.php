@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -45,7 +50,7 @@
                     </span>
                     <h3>Historique</h3>
                 </a>
-                <a href="./admin.html">
+                <a href="./admin.php">
                     <span class="material-icons-sharp">
                         insights
                     </span>
@@ -58,7 +63,7 @@
                     <h3>Tickets</h3>
                     <span class="message-count">27</span>
                 </a>
-                <a href="#" class="active">
+                <a href="./vente.php" class="active">
                     <span class="material-icons-sharp">
                         inventory
                     </span>
@@ -70,7 +75,7 @@
                     </span>
                     <h3>Plaintes</h3>
                 </a>
-                <a href="./profilParametre.html">
+                <a href="./profilParametre.php">
                     <span class="material-icons-sharp">
                         settings
                     </span>
@@ -82,7 +87,7 @@
                     </span>
                     <h3>Nouvelle conexion</h3>
                 </a>
-                <a href="/Login.html">
+                <a href="./Login.php">
                     <span class="material-icons-sharp">
                         logout
                     </span>
@@ -235,11 +240,11 @@
 
                 <div class="profile">
                     <div class="info">
-                        <p>Salut !, <b>Maxime</b></p>
+                        <p>Salut !, <b><?php echo $_SESSION['Pseudo'] ?></b></p>
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="Images/ChatVomi.png">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3AaERP611DtvEYbGFPm9CqH1xbQhSTww1pm0UhVzoFS0pNhcmq24zEQQXBtNCjDQE8M&usqp=CAU">
                     </div>
                 </div>
 
@@ -248,8 +253,8 @@
 
             <div class="user-profile">
                 <div class="logo">
-                    <img src="./Images/ChatVomi.png">
-                    <h2>Maxime</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3AaERP611DtvEYbGFPm9CqH1xbQhSTww1pm0UhVzoFS0pNhcmq24zEQQXBtNCjDQE8M&usqp=CAU">
+                    <h2><?php echo $_SESSION['Pseudo'] ?></h2>
                     <p>Catdnapeur</p>
                 </div>
             </div>
