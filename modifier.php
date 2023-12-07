@@ -16,12 +16,14 @@ if(isset($_POST['nom']) && isset($_POST['mail']) && isset($_POST['pseudo']) && i
     $pseudo = $_POST['pseudo'];
     $password = $_POST['password'];
 
-    $requete = "UPDATE infousers SET nom='$nom', pseudo='$pseudo', password='$password' WHERE mail='$mail'";
+    $requete = "UPDATE infousers SET nom=?, pseudo=?, password=? WHERE mail=?";
+    
+    $stmt = mysqli_prepare($connexion, $requete);
+    mysqli_stmt_bind_param($stmt, "ssss", $nom, $pseudo, $password, $mail);
 
-    if (mysqli_query($connexion, $requete)) {
+    if (mysqli_stmt_execute($stmt)) {
         echo "Informations mises à jour avec succès.";
-        
-        header("Location: MenuPrincipal.html");
+        header("Location: Login.php");
         exit();
     } else {
         echo "Erreur lors de la mise à jour : " . mysqli_error($connexion);
