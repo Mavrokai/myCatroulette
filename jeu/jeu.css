@@ -1,3 +1,8 @@
+body {
+    background-image: url(image/4161.jpg);
+    background-size: 120%;
+}
+
 canvas {
     padding :0;/*propiete CSS qui indique la marge interieur d'un bloc*/
     margin: auto; /*propiete CSS qui indique la marge exterieur d'un bloc*/
@@ -21,8 +26,8 @@ canvas {
     position: relative;
 }
 #pauserestart{
-    top: 610px;
-    left:451px;
+    top: 580px;
+    left:535px;
     position:absolute;
     width: 525px;
     height: 25px;

@@ -16,9 +16,11 @@ window.onload = function() {
     }
     document.addEventListener("keydown", keySprint);
     //speed
-    denov = 5;
+    denov = 8;
+
     vitesse = 1000 / denov;
     intervalID = setInterval(main, vitesse);
+
 
 }
 //variables Globales
@@ -26,9 +28,16 @@ snakeheadx = 25;
 snakeheady = 25;
 fruitx = 250;
 fruity = 250;
-largeur = hauteur = 25;
+largeur = hauteur = 30;
 deplacex = 0;
 deplacey = 0;
+const sonCollisionFruit = new Audio('son/Bonus.wav');
+const sonGameOver = new Audio('son/Gameover.mp3');
+
+sonGameOver.addEventListener('ended', function() {
+    sonGameOver.currentTime = 0;  // Réinitialisez la position de lecture à 0
+});
+
 
 //head of snake
 serpent = new Image();
@@ -40,7 +49,7 @@ back.src = "image/back.PNG";
 
 //les fruits
 f1 = new Image();
-f1.src = "image/bananes.png";
+f1.src = "image/passion.png";
 f2 = new Image();
 f2.src = "image/orange.png";
 f3 = new Image();
@@ -92,23 +101,20 @@ mili = 0;
 sec = 0;
 sec_ = 0;
 m = 0;
-n = 3;
+
 startingMinutes = 3;
 go = startingMinutes * 60;
-afficher = n + ":" + m + "0";
+
 //document.getElementById("valeurTime").innerHTML = afficher;
-energie = 0;
+energie = 1;
 flou = 0;
-posx = 200;
-posy = 518;
+
 
 
 //fonction principale de notre jeu le main
 function main() {
 
 //le timer ce lance des lorsquons commence a jouer
-//sablIterv=setInterval(sablier,1000/8);
-//time();
 
 //Le snake se deplace 
 snakeheadx += deplacex * largeur;
@@ -163,10 +169,16 @@ if (trace.length > 3) {
 }
 
 // et si le serpent mange un fruit
-if (fruitx == snakeheadx && fruity == snakeheady) {
+if (
+    snakeheadx < fruitx + largeur &&
+    snakeheadx + largeur > fruitx &&
+    snakeheady < fruity + hauteur &&
+    snakeheady + hauteur > fruity
+) {
+    
     document.getElementById('colis').play();
     energie++;
-
+     sonCollisionFruit.play();
 
     if (fruitsuivant == 0) {
         banane++;
@@ -188,9 +200,9 @@ if (fruitx == snakeheadx && fruity == snakeheady) {
         avoca++;
         amaj.innerHTML = avoca;
     }
+    // ... (code pour les autres fruits)
 
-    fruitsuivant = Math.trunc(Math.random() * 5); //on random pour l'indice du prochain fruit
-    //flou=2+Math.trunc(m/n);
+    fruitsuivant = Math.trunc(Math.random() * 5);
     flou = 1 + 60 - m;
     score += flou;
     majScore(score);
@@ -198,16 +210,22 @@ if (fruitx == snakeheadx && fruity == snakeheady) {
     n = 3;
     go = startingMinutes * 60;
     tailleTrace++;
+
     // coordonnees fruits par random 
     fruitx = Math.round(Math.random() * (canvas.width - largeur) / largeur) * largeur;
     fruity = Math.round(Math.random() * (canvas.height - hauteur) / hauteur) * hauteur;
+
     for (var i = 0; i < trace.length; i++) {
-        if (trace[i].snakeheadx == fruitx && trace[i].snakeheady == fruity) {
+        if (
+            trace[i].snakeheadx === fruitx &&
+            trace[i].snakeheady === fruity
+        ) {
+            // Si le fruit apparaît sur le serpent, recalculer les coordonnées
             fruitx = Math.round(Math.random() * (canvas.width - largeur) / largeur) * largeur;
             fruity = Math.round(Math.random() * (canvas.height - hauteur) / hauteur) * hauteur;
+            // Vous pouvez également ajouter une boucle pour vérifier à nouveau avec d'autres parties du serpent si nécessaire
         }
     }
-
 }
 
 //nous decidons qu'apres 100 secondes si le serpent n'a pqs encore consomme la pomme  on deplace sa position
@@ -228,6 +246,20 @@ else {
     }
 
 }
+
+if (
+    snakeheadx < fruitx + 70 &&
+    snakeheadx + 30 > fruitx &&
+    snakeheady < fruity + 70 &&
+    snakeheady + 30 > fruity
+  ) {
+    document.getElementById('colis').play();
+    energie++;
+  
+    // ... (le reste de votre code pour la gestion du fruit)
+  }
+
+
 //probleme
 if (fruitx > 500) {
     fruitx = 250;
@@ -241,7 +273,7 @@ if (fruity > 500) {
 if (fruity < 5) {
     fruity = 250;
 }
-contexte.drawImage(fruits[fruitsuivant], fruitx, fruity);
+contexte.drawImage(fruits[fruitsuivant], fruitx, fruity, largeur, hauteur);
 
 //Le Chono;
 contexte.fillStyle = '#2c3e50';
@@ -267,48 +299,13 @@ if (energie > 3) {
 
 }
 
-//fonction pour time
-function sablier() {
-if (go == 0) {
-    go = startingMinutes * 60;
-}
-n = Math.floor(go / 60);
-m = go % 60;
-m = m < 10 ? '0' + m : m;
-go--;
-afficher = n + ":" + m;
-}
 
-function time() {
-mili++;
-
-if (mili < 10) {
-    m = "0" + mili;
-} else {
-    m = mili;
-}
-
-if (mili == 60) {
-    sec++;
-    if (sec < 10) {
-        sec_ = "0" + sec;
-    } else {
-        sec_ = sec;
-    }
-
-    afficher = sec_ + ":" + m;
-    n = sec_;
-    mili = 0;
-} else { afficher = n + ":" + m; }
-//document.getElementById("valeurTime").innerHTML = afficher;
-
-// reglage = window.setTimeout("time();",1000);
-}
 
 // fonction Gameover
 function gameover() {
+    
 if (snakeheadx < -1 || snakeheadx > depalcei + 1 || snakeheady < -1 || snakeheady > depalcei - 1 || collisionbody == true) {
-
+    sonGameOver.play();
     contexte.font = 'bold 50px sans-serif';
     contexte.strokeStyle = '#2c3e50';
     contexte.fillStyle = 'white';
@@ -321,6 +318,9 @@ if (snakeheadx < -1 || snakeheadx > depalcei + 1 || snakeheady < -1 || snakehead
     contexte.font = 'bold 20px sans-serif';
     contexte.strokeText('R pour rejouer !', canvas.width / 2 + 40, canvas.height / 2 + 40);
     contexte.fillText('R pour rejouer !', canvas.width / 2 + 40, canvas.height / 2 + 40);
+    denov = 5;
+    vitesse = 1000 / denov;
+
 
 
     clearTime(intervalID);
@@ -362,6 +362,8 @@ if (fruitsuivant == 3) {
 }
 
 }
+
+
 //la fonction pause()
 function pause() {
 
@@ -388,7 +390,6 @@ if (!gamepause) {
 
 // la fonction keySprint() // deplacement du snake
 function keySprint(evenement) {
-sableintervalID = setInterval(sablier, 1000 / 2);
 //sablier();
 switch (evenement.keyCode) {
     case 37: //37 code clavier de la touche de direction gauche
@@ -424,7 +425,7 @@ switch (evenement.keyCode) {
         break;
 
     case 82: // 82 code clavier de la touche r/R , pour restart, reintialiser tous
-        denov = 5;
+        denov = 50;
         vitesse = 1000 / denov;
         //variable Glo
         snakeheadx = 25;
@@ -444,7 +445,7 @@ switch (evenement.keyCode) {
 
         //les fruits
         f1 = new Image();
-        f1.src = "image/bananes.png";
+        f1.src = "image/passion.png";
         f2 = new Image();
         f2.src = "image/orange.png";
         f3 = new Image();
