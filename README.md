@@ -1,5 +1,5 @@
 # myCatroulette
 
-Projet Nurserie Numerique 
+GROUP PROJECT Nurserie Numerique 
 
 HTML CSS JS PHP
